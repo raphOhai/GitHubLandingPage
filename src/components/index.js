@@ -1,0 +1,31 @@
+import styled from "@emotion/styled";
+import { Box, Typography } from "@mui/material";
+// import exp from "constants";
+
+export const MyPadding = {
+  paddingLeft: { lg: "15rem", sm: "3rem", xs: "1rem" },
+  paddingRight: { lg: "15rem", sm: "3rem", xs: "1rem" },
+  // marginTop: { lg: "5rem", sm: "5rem", xs: "2rem" },
+};
+
+export const MyText = styled(Typography)({
+  color: "#FFFFFF",
+});
+
+export const Center = styled(Box)({
+  // textAlign: "center",
+  justifyContent: "center",
+  alignItems: "center",
+});
+
+export const BlackBox = styled(Box)({
+  border: "1px solid #424B5B",
+  backgroundColor: "black",
+  display: "flex",
+  borderRadius: "50px",
+  width: "24rem",
+  gap: "1rem",
+});
+export const FlexBox = styled(Box)({
+  display: "flex",
+});
