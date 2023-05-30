@@ -1,5 +1,5 @@
 import "./App.css";
-import { Box, } from "@mui/material";
+import { Box } from "@mui/material";
 
 import { Stack } from "@mui/system";
 import Section1 from "./components/Section1";
@@ -43,7 +43,9 @@ function App() {
           <Strock/>
 
         </Box> */}
-        <Terminal />
+        <Box p={2}>
+          <Terminal />
+        </Box>
 
         <div className="strock2 ">
           <Strock2 />

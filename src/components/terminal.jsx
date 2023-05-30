@@ -7,12 +7,14 @@ import { Center, MyText } from ".";
 import Add from "../assets/add";
 import Piemenu from "../assets/piemenu";
 // import React from "react";
-import "./styles/terminal.css"
+import "./styles/terminal.css";
+import Codedemo from "./codedemo";
 const Terminal = () => {
   const MainTerminalStyles = {
     backgroundColor: "#161B22",
-    border: "1px solid #30363D",
+    border: "2px solid #30363D",
     // padding: "3rem",
+    overflow: "hidden",
     borderRadius: "10px",
   };
   const RightBoxStyles = {
@@ -30,9 +32,12 @@ const Terminal = () => {
     justifyContent: "space-between",
     borderRadius: "6px",
   };
+  const greyTextStyles = {
+    color: "#6E7681",
+  };
 
   return (
-    <Box>
+    <Box sx={{ overflow: "hidden" }}>
       <Box sx={MainTerminalStyles} mt={4} ml={12} mr={12}>
         <Box
           sx={{
@@ -68,46 +73,82 @@ const Terminal = () => {
             {/* <Box p={3} sx={RightBoxStyles}></Box> */}
           </Grid>
           <Grid item lg={5} sx={{ borderLeft: "1px solid #30363D" }}>
-            <Box
-              sx={{
-                backgroundColor: "#0D1117",
-                overflow: "scroll",
-                height: "1",
-              }}
-            >
-              <Stack>
-                <Typography className="maintext">
-                  <span>
-                    <pre>&lt;div class="container"&gt;</pre>
-                    <pre>
-                      &lt;div "d-flex flex-justify-center flex-lg-justify-end
-                      color-bg-default&lt;div&gt;
-                    </pre>
-                    <pre>&lt;div&gt;</pre>
-                  </span>
-                </Typography>
-                <Typography className="maintext">
-                  <span>
-                    <pre>&lt;div class="container"&gt;</pre>
-                    <pre>
-                      &lt;div "d-flex flex-justify-center flex-lg-justify-end
-                      color-bg-default&lt;div&gt;
-                    </pre>
-                    <pre>&lt;div&gt;</pre>
-                  </span>
-                </Typography>
-                <Typography className="maintext">
-                  <span>
-                    <pre>&lt;div class="container"&gt;</pre>
-                    <pre>
-                      &lt;div "d-flex flex-justify-center flex-lg-justify-end
-                      color-bg-default&lt;div&gt;
-                    </pre>
-                    <pre>&lt;div&gt;</pre>
-                  </span>
-                </Typography>
-              </Stack>
-            </Box>
+            <Stack>
+              <Box
+                sx={{
+                  backgroundColor: "#0D1117",
+                  overflow: "hidden",
+                  height: "1",
+                }}
+              >
+                <Box pl={4}>
+                    <Codedemo/>
+                </Box>
+              </Box>
+              <Box>
+                <Box p={2} sx={{ display: "flex", gap: "3rem" }}>
+                  <MyText>Terminal</MyText>
+                  <Typography sx={greyTextStyles}>Output</Typography>
+                  <Typography sx={greyTextStyles}>Problem</Typography>
+                </Box>
+                <Box pl={2} mb={4}>
+                  <Stack spacing={1}>
+                    <MyText>
+                      <pre>
+                        <span style={{ color: "#6E7681" }}>
+                          [09:43:36] starting{" "}
+                        </span>
+                        <span style={{ color: "#58A6FF" }}>
+                          "watch-extension:vscode-api-tests"...
+                        </span>
+                      </pre>
+                    </MyText>
+                    <MyText>
+                      <pre>
+                        <span style={{ color: "#6E7681" }}>
+                          [09:43:36] starting{" "}
+                        </span>
+                        <span style={{ color: "#58A6FF" }}>
+                          "watch-extension:vscode-api-tests"...
+                        </span>
+                      </pre>
+                    </MyText>
+                    <MyText>
+                      <pre>
+                        <span style={{ color: "#6E7681" }}>
+                          [09:43:36] starting{" "}
+                        </span>
+                        <span style={{ color: "#58A6FF" }}>
+                          "watch-extension:vscode-api-tests"...
+                        </span>
+                      </pre>
+                    </MyText>
+
+                    <MyText>
+                      <pre>
+                        <span style={{ color: "#6E7681" }}>
+                          [09:43:36] starting{" "}
+                        </span>
+                        <span style={{ color: "#58A6FF" }}>
+                          "watch-extension:vscode-api-tests"...
+                        </span>
+                      </pre>
+                    </MyText>
+
+                    <MyText>
+                      <pre>
+                        <span style={{ color: "#6E7681" }}>
+                          [09:43:36] starting{" "}
+                        </span>
+                        <span style={{ color: "#58A6FF" }}>
+                          "watch-extension:vscode-api-tests"...
+                        </span>
+                      </pre>
+                    </MyText>
+                  </Stack>
+                </Box>
+              </Box>
+            </Stack>
           </Grid>
           <Grid
             item
