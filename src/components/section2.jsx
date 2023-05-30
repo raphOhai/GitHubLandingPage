@@ -5,7 +5,7 @@ import { Box, Grid, InputBase } from "@mui/material";
 const Section2 = () => {
   return (
     <Grid container>
-      <Grid item lg={6}>
+      <Grid item lg={6} sm={12}>
         <FlexBox sx={{ borderRadius: "5px" }}>
           <Box
             pl={1.5}
@@ -33,7 +33,7 @@ const Section2 = () => {
       {/* <Grid lg={}>
       <Box sx={{ Width: "3px", backgroundColor: "#30363D" }}></Box>
     </Grid> */}
-      <Grid lg={6}>
+      <Grid lg={6} sm={12}>
         <Box
           maxWidth={200}
           p={1.2}

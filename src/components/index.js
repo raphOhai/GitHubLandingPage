@@ -29,3 +29,9 @@ export const BlackBox = styled(Box)({
 export const FlexBox = styled(Box)({
   display: "flex",
 });
+
+export const terminalBox = styled(Box)({
+  backgroundColor: "#30363D",
+  border: "1px solid #6E7681",
+  padding:"3rem"
+});

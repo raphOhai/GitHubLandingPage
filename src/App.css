@@ -7,12 +7,13 @@
   background-image: url("../src/assets/star.svg");
   background-repeat: no-repeat;
   /* overflow: hidden; */
-  width: 100%;
+  width: 100vw;
   height: 150vh;
   /* object-fit: fil; */
   background-size: 100%;
   /* background-position-x: -30rem; */
   position: relative;
+  z-index: -2;
 }
 
 body {
@@ -25,11 +26,59 @@ body {
   top: 5rem;
   right: 4rem;
 }
-.strock {
-  position: absolute;
-  top: 10rem;
-  left: 6rem;
-}
 
 .main {
+  z-index: -1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .strock {
+    position: absolute;
+    top: -7rem;
+    left: -3rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .strock {
+    position: absolute;
+    top: -1rem;
+    left: -2rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .strock {
+    position: absolute;
+    top: -1rem;
+    left: -2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .strock {
+    position: absolute;
+    top: 10rem;
+    left: 6rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .strock {
+    position: absolute;
+    top: 10rem;
+    left: 6rem;
+  }
+}
+
+.strock2 {
+  position: absolute;
+  top: 85rem;
+  left: 6rem;
+  z-index: -3;
 }
