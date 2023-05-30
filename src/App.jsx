@@ -8,6 +8,8 @@ import Section3 from "./components/Section3";
 import Strock2 from "./assets/strock2";
 import Section4 from "./components/section4";
 import Terminal from "./components/terminal";
+import GreenStrock from "./assets/greenStrock";
+import Section5 from "./components/section5";
 // import Strock from "./assets/strock";
 
 // import starship form "../src/assets/starShips.svg"
@@ -46,9 +48,15 @@ function App() {
         <Box p={2}>
           <Terminal />
         </Box>
+        <Box>
+          <Section5/>
+        </Box>
 
         <div className="strock2 ">
           <Strock2 />
+        </div>
+        <div className="strock3">
+          <GreenStrock/>
         </div>
         <img className="strock" src="../src/assets/strock.svg" />
       </div>

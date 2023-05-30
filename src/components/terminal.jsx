@@ -9,6 +9,10 @@ import Piemenu from "../assets/piemenu";
 // import React from "react";
 import "./styles/terminal.css";
 import Codedemo from "./codedemo";
+import CommitsDemo from "./commitsDemo";
+import Bell from "../assets/bell";
+import GitHubCat from "../assets/gitHubCat";
+import MiniPie from "../assets/miniPie";
 const Terminal = () => {
   const MainTerminalStyles = {
     backgroundColor: "#161B22",
@@ -74,6 +78,24 @@ const Terminal = () => {
           </Grid>
           <Grid item lg={6} sx={{ borderLeft: "1px solid #30363D" }}>
             <Stack>
+              <Box mt={2} sx={{ display: "flex", gap: "1rem" }}>
+                <Center
+                  ml={2}
+                  sx={{ backgroundColor: "#0D1117" }}
+                  pl={1.5}
+                  pr={1.5}
+                  pt={1}
+                  pb={1}
+                >
+                  <MyText>index.html</MyText>
+                </Center>
+                <Center pl={1.5} pr={1.5} pt={1} pb={1}>
+                  <Typography sx={greyTextStyles}>script.js</Typography>
+                </Center>
+                <Center pl={1.5} pr={1.5} pt={1} pb={1}>
+                  <Typography sx={greyTextStyles}>package.json</Typography>
+                </Center>
+              </Box>
               <Box
                 sx={{
                   backgroundColor: "#0D1117",
@@ -82,7 +104,7 @@ const Terminal = () => {
                 }}
               >
                 <Box pl={4}>
-                    <Codedemo/>
+                  <Codedemo />
                 </Box>
               </Box>
               <Box>
@@ -92,81 +114,7 @@ const Terminal = () => {
                   <Typography sx={greyTextStyles}>Problem</Typography>
                 </Box>
                 <Box pl={2} mb={4}>
-                  <Stack spacing={1}>
-                    <MyText>
-                      <pre>
-                        <span style={{ color: "#6E7681" }}>
-                          [09:43:36] starting{" "}
-                        </span>
-                        <span style={{ color: "#58A6FF" }}>
-                          "watch-extension:vscode-api-tests"...
-                        </span>
-                      </pre>
-                    </MyText>
-                    <MyText>
-                      <pre>
-                        <span style={{ color: "#6E7681" }}>
-                          [09:43:36] starting{" "}
-                        </span>
-                        <span style={{ color: "#58A6FF" }}>
-                          "watch-extension:vscode-api-tests"...
-                        </span>
-                      </pre>
-                    </MyText>
-                    <MyText>
-                      <pre>
-                        <span style={{ color: "#6E7681" }}>
-                          [09:43:36] starting{" "}
-                        </span>
-                        <span style={{ color: "#58A6FF" }}>
-                          "watch-extension:vscode-api-tests"...
-                        </span>
-                      </pre>
-                    </MyText>
-
-                    <MyText>
-                      <pre>
-                        <span style={{ color: "#6E7681" }}>
-                          [09:43:36] starting{" "}
-                        </span>
-                        <span style={{ color: "#58A6FF" }}>
-                          "watch-extension:vscode-api-tests"...
-                        </span>
-                      </pre>
-                    </MyText>
-
-                    <MyText>
-                      <pre>
-                        <span style={{ color: "#6E7681" }}>
-                          [09:43:36] starting{" "}
-                        </span>
-                        <span style={{ color: "#58A6FF" }}>
-                          "watch-extension:vscode-api-tests"...
-                        </span>
-                      </pre>
-                    </MyText>
-                    <MyText>
-                      <pre>
-                        <span style={{ color: "#6E7681" }}>
-                          [09:43:36] starting{" "}
-                        </span>
-                        <span style={{ color: "#58A6FF" }}>
-                          "watch-extension:vscode-api-tests"...
-                        </span>
-                      </pre>
-                    </MyText>
-                    <MyText>
-                      <pre>
-                        <span style={{ color: "#6E7681" }}>
-                          [09:43:36] starting{" "}
-                        </span>
-                        <span style={{ color: "#58A6FF" }}>
-                          "watch-extension:vscode-api-tests"...
-                        </span>
-                      </pre>
-                    </MyText>
-                     
-                  </Stack>
+                  <CommitsDemo />
                 </Box>
               </Box>
             </Stack>
@@ -176,11 +124,18 @@ const Terminal = () => {
             lg={5}
             sx={{ backgroundColor: "#040D21", borderLeft: "2px solid #30363D" }}
           >
-            <Box p={1}>
-              <Center>
-                <img className="planet" src="src/assets/planet.svg" />
-              </Center>
-            </Box>
+            <Stack>
+              <Box p={2} sx={{ display: "flex", justifyContent: "space-between", backgroundColor:"#161B22" }}>
+                <MiniPie />
+                <GitHubCat />
+                <Bell />
+              </Box>
+              <Box p={1}>
+                <Center>
+                  <img className="planet" src="src/assets/planet.svg" />
+                </Center>
+              </Box>
+            </Stack>
           </Grid>
         </Grid>
       </Box>
