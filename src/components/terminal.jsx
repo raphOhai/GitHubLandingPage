@@ -18,7 +18,7 @@ const Terminal = () => {
     backgroundColor: "#161B22",
     border: "2px solid #30363D",
     // padding: "3rem",
-    overflow: "hidden",
+    // overflow: "hidden",
     borderRadius: "10px",
   };
   const RightBoxStyles = {
@@ -41,7 +41,7 @@ const Terminal = () => {
   };
 
   return (
-    <Box sx={{ overflow: "hidden" }}>
+    <Box sx={{ overflow: "" }}>
       <Box sx={MainTerminalStyles} mt={4} ml={12} mr={12}>
         <Box
           sx={{
@@ -125,7 +125,14 @@ const Terminal = () => {
             sx={{ backgroundColor: "#040D21", borderLeft: "2px solid #30363D" }}
           >
             <Stack>
-              <Box p={2} sx={{ display: "flex", justifyContent: "space-between", backgroundColor:"#161B22" }}>
+              <Box
+                p={2}
+                sx={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  backgroundColor: "#161B22",
+                }}
+              >
                 <MiniPie />
                 <GitHubCat />
                 <Bell />

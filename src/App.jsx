@@ -30,16 +30,13 @@ function App() {
             <>
               <Section1 />
             </>
-            <Box>
-              <Section2 />
-            </Box>
-            <Box>
-              <Section3 />
-            </Box>
+
+            <Section2 />
+
+            <Section3 />
           </Stack>
-          <Box>
-            <Section4 />
-          </Box>
+
+          <Section4 />
         </Box>
         {/* <Box className="strock">
           <Strock/>
@@ -48,15 +45,20 @@ function App() {
         <Box p={2}>
           <Terminal />
         </Box>
-        <Box>
-          <Section5/>
+        <Box
+          sx={{
+            paddingLeft: { lg: "15rem", sm: "3rem", xs: "1rem" },
+            paddingRight: { lg: "15rem", sm: "3rem", xs: "1rem" },
+          }}
+        >
+          <Section5 />
         </Box>
 
         <div className="strock2 ">
           <Strock2 />
         </div>
         <div className="strock3">
-          <GreenStrock/>
+          <GreenStrock />
         </div>
         <img className="strock" src="../src/assets/strock.svg" />
       </div>

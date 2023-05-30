@@ -11,12 +11,13 @@
 
 .picture{
     position: absolute;
-    top:"9rem";
-    right:"8rem"
+    top:-6rem;
+    left: 16rem;
 }
 
 .picture2{
     position: absolute;
-    top:"90rem";
-    right:"1rem"
+    top: 3rem;
+    left: 5rem;
+    /* z-index: -3; */
 }
