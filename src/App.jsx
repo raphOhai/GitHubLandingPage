@@ -1,6 +1,6 @@
 import "./App.css";
-import { Box, Grid, InputBase, Typography } from "@mui/material";
-import { BlackBox, Center, FlexBox, MyPadding, MyText } from "./components";
+import { Box, } from "@mui/material";
+
 import { Stack } from "@mui/system";
 import Section1 from "./components/Section1";
 import Section2 from "./components/section2";
@@ -25,9 +25,9 @@ function App() {
           }}
         >
           <Stack spacing={6}>
-            <Center>
+            <>
               <Section1 />
-            </Center>
+            </>
             <Box>
               <Section2 />
             </Box>
@@ -43,7 +43,7 @@ function App() {
           <Strock/>
 
         </Box> */}
-        {/* <Terminal /> */}
+        <Terminal />
 
         <div className="strock2 ">
           <Strock2 />

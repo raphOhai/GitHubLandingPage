@@ -13,7 +13,7 @@ export const MyText = styled(Typography)({
 });
 
 export const Center = styled(Box)({
-  // textAlign: "center",
+  textAlign: "center",
   justifyContent: "center",
   alignItems: "center",
 });
