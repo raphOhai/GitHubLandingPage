@@ -72,7 +72,7 @@ const Terminal = () => {
             </Center>
             {/* <Box p={3} sx={RightBoxStyles}></Box> */}
           </Grid>
-          <Grid item lg={5} sx={{ borderLeft: "1px solid #30363D" }}>
+          <Grid item lg={6} sx={{ borderLeft: "1px solid #30363D" }}>
             <Stack>
               <Box
                 sx={{
@@ -145,6 +145,27 @@ const Terminal = () => {
                         </span>
                       </pre>
                     </MyText>
+                    <MyText>
+                      <pre>
+                        <span style={{ color: "#6E7681" }}>
+                          [09:43:36] starting{" "}
+                        </span>
+                        <span style={{ color: "#58A6FF" }}>
+                          "watch-extension:vscode-api-tests"...
+                        </span>
+                      </pre>
+                    </MyText>
+                    <MyText>
+                      <pre>
+                        <span style={{ color: "#6E7681" }}>
+                          [09:43:36] starting{" "}
+                        </span>
+                        <span style={{ color: "#58A6FF" }}>
+                          "watch-extension:vscode-api-tests"...
+                        </span>
+                      </pre>
+                    </MyText>
+                     
                   </Stack>
                 </Box>
               </Box>
@@ -152,7 +173,7 @@ const Terminal = () => {
           </Grid>
           <Grid
             item
-            lg={6}
+            lg={5}
             sx={{ backgroundColor: "#040D21", borderLeft: "2px solid #30363D" }}
           >
             <Box p={1}>
