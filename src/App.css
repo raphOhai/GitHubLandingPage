@@ -25,16 +25,20 @@
   /* object-fit: fil; */
   background-size: 100%;
   /* background-position-x: 40rem;*/
-  background-position-y: -30rem; 
-  /* position:absolute;
-  top: -20rem; */
+  background-position-y: -30rem;
+  position: absolute;
+  /* top: -20rem; */
   /* rotate: 30deg; */
   padding-top: 3rem;
   margin-top: 50;
   z-index: -2;
 }
-.relative{
+.relative {
   position: relative;
+}
+.responsive {
+  width: 100%;
+  height: auto;
 }
 body {
   background-color: #0d1117;
@@ -83,7 +87,7 @@ body {
   .strock {
     position: absolute;
     top: 10rem;
-    left: 6rem;
+    left: 9.5rem;
   }
 }
 
@@ -92,24 +96,82 @@ body {
   .strock {
     position: absolute;
     top: 10rem;
-    left: 6rem;
+    left: 8.9rem;
   }
 }
-
-.strock2 {
+/* strockicons */
+.strockIcon2 {
   position: absolute;
-  top: 85rem;
-  left: 6rem;
-  z-index: -3;
-}
-
-
-.strock3 {
-  position: absolute;
-  top: 155rem;
+  top: 50.8rem;
   left: 9.5rem;
   z-index: -3;
 }
+.strockIcon3 {
+  position: absolute;
+  top: 82rem;
+  left: 9.5rem;
+  z-index: -3;
+}
+/* end of srock icons */
+
+/* strocks */
+.strock2 {
+  position: absolute;
+  top:  52rem;
+  left: 9.5rem;
+  z-index: 5;
+}
+
+.strock3 {
+  position: absolute;
+  top:84rem;
+  left: 9.5rem;
+  z-index: -3;
+}
+.strock4 {
+  position: absolute;
+  top:152rem;
+  left: 9.5rem;
+  z-index: -3;
+}
+/* end of strocks */
+
+/* 
+div {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px #f0f,
+    0 0 140px 90px #0ff;
+} */
+
+/* glowBoxs for the stock icons */
+
+.GlowBox1 {
+  /* position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px); */
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 30px 10px rgb(241, 80, 241), 0 0 0px 0px #f0f, 0 0 0px 0px #f0f;
+}
 
 
-
+.GlowBox2 {
+  /* position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px); */
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 30px 10px rgb(80, 241, 88), 0 0 0px 0px rgb(30, 255, 0), 0 0 0px 0px #f0f;
+}

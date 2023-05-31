@@ -18,6 +18,13 @@ export const Center = styled(Box)({
   alignItems: "center",
 });
 
+export const Margin0Auto = styled(Box)({
+  // textAlign: "center",
+  justifyContent: "center",
+  alignItems: "center",
+  margin:"auto"
+});
+
 export const BlackBox = styled(Box)({
   border: "1px solid #424B5B",
   backgroundColor: "black",
@@ -30,8 +37,28 @@ export const FlexBox = styled(Box)({
   display: "flex",
 });
 
-export const terminalBox = styled(Box)({
+export const terminalBox = {
   backgroundColor: "#30363D",
   border: "1px solid #6E7681",
   padding:"3rem"
-});
+}
+
+export const section7Box = {
+  backgroundColor:"#161B22",
+  border:"1px solid #30363D",
+  borderRadius:"10px",
+  overflow:"hidden"
+}
+
+export const grayText ={
+  color:"#8B949E"
+}
+
+export const codeBox = {
+  backgroundColor:"#0D1117"
+}
+
+
+
+
+

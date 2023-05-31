@@ -5,7 +5,7 @@ import { MyText } from ".";
 const Section6 = () => {
   return (
     <>
-      <Box mt={9}>
+      <Box mt={23}>
         <Stack spacing={2}>
           <Typography className="maintext">Did you know?</Typography>
           <Typography className="maintext" sx={{ fontSize: "3rem" }}>

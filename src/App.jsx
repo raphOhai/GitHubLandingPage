@@ -12,6 +12,9 @@ import GreenStrock from "./assets/greenStrock";
 import Section5 from "./components/section5";
 import CodeSpaceDemo from "./components/codespace";
 import Section6 from "./components/section6";
+import Section7 from "./components/section7";
+import FirstStrock from "./assets/firstStrock";
+import SvgStrocks from "./components/svgStrocks";
 // import Strock from "./assets/strock";
 
 // import starship form "../src/assets/starShips.svg"
@@ -37,8 +40,9 @@ function App() {
 
             <Section3 />
           </Stack>
-
-          <Section4 />
+          <Box mt={-8}>
+            <Section4 />
+          </Box>
         </Box>
         {/* <Box className="strock">
           <Strock/>
@@ -56,24 +60,20 @@ function App() {
           <Section5 />
         </Box>
 
-        <div className="section6Pic">
-          <Box
-            sx={{
-              paddingLeft: { lg: "15rem", sm: "3rem", xs: "1rem" },
-              paddingRight: { lg: "15rem", sm: "3rem", xs: "1rem" },
-            }}
-          >
-            <Section6 />
-          </Box>
-        </div>
+        <div className="section6Pic"></div>
+        <Box
+          sx={{
+            paddingLeft: { lg: "15rem", sm: "3rem", xs: "1rem" },
+            paddingRight: { lg: "15rem", sm: "3rem", xs: "1rem" },
+          }}
+        >
+          <Section6 />
+        </Box>
 
-        <div className="strock2 ">
-          <Strock2 />
-        </div>
-        <div className="strock3">
-          <GreenStrock />
-        </div>
-        <img className="strock" src="../src/assets/strock.svg" />
+        <Section7 />
+
+        <SvgStrocks />
+        {/* <img className="strock" src="../src/assets/strock.svg" /> */}
       </div>
     </>
   );
