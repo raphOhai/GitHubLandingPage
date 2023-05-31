@@ -2,7 +2,7 @@
 import { Animate } from "../components/animations";
 
 const Strock2 = () => {
-  Animate()
+  // Animate()
   return (
     <svg
       className="svg"

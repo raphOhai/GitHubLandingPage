@@ -1,6 +1,6 @@
 // import React from "react";
 import "../components/styles/section4.css";
-import { Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 const Section4 = () => {
   return (
@@ -11,17 +11,19 @@ const Section4 = () => {
         </Typography>
 
         <div>
-          <Typography
-            // className="maintext"
-            variant="h2"
-            sx={{ fontSize: "3.4rem", color: "#7EE787", fontWeight: "400" }}
-          >
-            Accelerate high-quality software development.{" "}
-            <span style={{ color: "white" }}>
-              Our platform drives innovation with tools that boost developer
-              velocity.
-            </span>
-          </Typography>
+          <Box maxWidth={900}>
+            <Typography
+              // className="maintext"
+              variant="h2"
+              sx={{ fontSize: "3rem", color: "#7EE787", fontWeight: "400" }}
+            >
+              Accelerate high-quality software development.{" "}
+              <span style={{ color: "white" }}>
+                Our platform drives innovation with tools that boost developer
+                velocity.
+              </span>
+            </Typography>
+          </Box>
         </div>
       </div>
     </>

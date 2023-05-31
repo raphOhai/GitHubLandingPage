@@ -1,20 +1,14 @@
 import { gsap } from "gsap";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
-export const Animate = () => {
+export const Animate = (cardRef) => {
+  
   return useEffect(() => {
-    const svg = document.querySelector(".svg");
-    console.log(svg)
-
-    const tl = gsap
-      .timeline({
-        defaults: { ease: "power1.in" },
-        paused: true,
-      })
-      .to(".circle", { drawSVG: "100% 50%" })
-    //   .from(".line", { drawSVG: "0% 0%" }, 0);
-
-    svg.addEventListener("mouseenter", (e) => tl.play());
-    svg.addEventListener("mouseleave", (e) => tl.reverse());
+    gsap.from(cardRef.current, {
+      opacity: 0,
+      y: 100,
+      duration: 1,
+      ease: "power3.out",
+    });
   }, []);
 };

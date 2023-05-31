@@ -2,8 +2,12 @@ import { Box, Grid, Stack, Typography } from "@mui/material";
 // import React from 'react'
 import { Center, Margin0Auto, grayText, section7Box } from ".";
 import Copilotdemo from "./copilotdemo";
+import { useRef } from "react";
+import { Animate } from "./animations";
 
 const Section7 = () => {
+    const cardRef = useRef(null);
+    Animate(cardRef)
   return (
     <Box mt={8}>
       <Stack spacing={4}>
@@ -44,7 +48,7 @@ const Section7 = () => {
 
         <Grid container spacing={0}>
           <Grid item lg={6}>
-            <Box sx={section7Box} ml={12} mr={2} maxHeight={700}>
+            <Box sx={section7Box} ml={12} mr={2} maxHeight={700} >
               <Margin0Auto pt={6} pb={6} maxWidth={500}>
                 <Stack spacing={5}>
                   <Typography sx={{ color: "#8B949E", fontSize: "1.5rem" }}>
