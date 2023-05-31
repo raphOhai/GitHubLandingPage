@@ -70,8 +70,8 @@ const CodeSpaceDemo = () => {
           <Add />
         </Box>
         <Grid container>
-          <Grid item lg={1}>
-            <Center p={5}>
+          <Grid item lg={.7}>
+            <Center p={2}>
               <Piemenu />
             </Center>
             {/* <Box p={3} sx={RightBoxStyles}></Box> */}
@@ -121,7 +121,7 @@ const CodeSpaceDemo = () => {
           </Grid>
           <Grid
             item
-            lg={5}
+            lg={5.3}
             sx={{ backgroundColor: "#040D21", borderLeft: "2px solid #30363D" }}
           >
             <Stack>
