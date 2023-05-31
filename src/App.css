@@ -16,6 +16,26 @@
   z-index: -2;
 }
 
+.section6Pic {
+  background-image: url("../src/assets/stars6.svg");
+  background-repeat: no-repeat;
+  /* overflow: hidden; */
+  width: 100%;
+  height: 100vh;
+  /* object-fit: fil; */
+  background-size: 100%;
+  /* background-position-x: 40rem;*/
+  background-position-y: -30rem; 
+  /* position:absolute;
+  top: -20rem; */
+  /* rotate: 30deg; */
+  padding-top: 3rem;
+  margin-top: 50;
+  z-index: -2;
+}
+.relative{
+  position: relative;
+}
 body {
   background-color: #0d1117;
   /* overflow: hidden; */

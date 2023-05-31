@@ -13,12 +13,12 @@ import CommitsDemo from "./commitsDemo";
 import Bell from "../assets/bell";
 import GitHubCat from "../assets/gitHubCat";
 import MiniPie from "../assets/miniPie";
-const Terminal = () => {
+const CodeSpaceDemo = () => {
   const MainTerminalStyles = {
     backgroundColor: "#161B22",
     border: "2px solid #30363D",
     // padding: "3rem",
-    // overflow: "hidden",
+    overflow: "hidden",
     borderRadius: "10px",
   };
   const RightBoxStyles = {
@@ -150,4 +150,4 @@ const Terminal = () => {
   );
 };
 
-export default Terminal;
+export default CodeSpaceDemo;

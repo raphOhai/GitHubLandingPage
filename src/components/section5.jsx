@@ -19,7 +19,11 @@ const Section5 = () => {
               </Typography>
               <Box sx={{ display: "flex", gap: "1rem" }}>
                 <Typography
-                  sx={{ fontSize: "1.2rem", fontWeight:"bold", color: "white" }}
+                  sx={{
+                    fontSize: "1.2rem",
+                    fontWeight: "bold",
+                    color: "white",
+                  }}
                 >
                   Check out GitHub Codespaces
                 </Typography>

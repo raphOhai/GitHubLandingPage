@@ -7,9 +7,11 @@ import Section2 from "./components/section2";
 import Section3 from "./components/Section3";
 import Strock2 from "./assets/strock2";
 import Section4 from "./components/section4";
-import Terminal from "./components/terminal";
+
 import GreenStrock from "./assets/greenStrock";
 import Section5 from "./components/section5";
+import CodeSpaceDemo from "./components/codespace";
+import Section6 from "./components/section6";
 // import Strock from "./assets/strock";
 
 // import starship form "../src/assets/starShips.svg"
@@ -43,7 +45,7 @@ function App() {
 
         </Box> */}
         <Box p={2}>
-          <Terminal />
+          <CodeSpaceDemo />
         </Box>
         <Box
           sx={{
@@ -53,6 +55,17 @@ function App() {
         >
           <Section5 />
         </Box>
+
+        <div className="section6Pic">
+          <Box
+            sx={{
+              paddingLeft: { lg: "15rem", sm: "3rem", xs: "1rem" },
+              paddingRight: { lg: "15rem", sm: "3rem", xs: "1rem" },
+            }}
+          >
+            <Section6 />
+          </Box>
+        </div>
 
         <div className="strock2 ">
           <Strock2 />
