@@ -8,6 +8,10 @@ import StrockIcon1 from "../assets/strockIcon1";
 import StrockIcon2 from "../assets/strockIcon2";
 import Strock3 from "../assets/strock3";
 import GreenStrock from "../assets/greenStrock";
+import Strock5 from "../assets/strock5";
+import StrockIcon3 from "../assets/strockIcon3";
+import Strock6 from "../assets/strock6";
+
 
 const SvgStrocks = () => {
   return (
@@ -43,6 +47,22 @@ const SvgStrocks = () => {
       <div className="strock4">
         <GreenStrock />
       </div>
+
+      <Box className="strock5">
+        <Strock5 />
+      </Box>
+      <Box className="GlowBox3 strockIcon4 ">
+        <Box sx={{ position: "relative" }}>
+          <Box sx={{ position: "absolute", top: -9, left: -9 }}>
+            <Typography>
+              <StrockIcon3 />
+            </Typography>
+          </Box>
+        </Box>
+      </Box>
+      <Box className="strock6">
+        <Strock6 />
+      </Box>
     </>
   );
 };

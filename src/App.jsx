@@ -1,20 +1,17 @@
 import "./App.css";
 import { Box } from "@mui/material";
-
 import { Stack } from "@mui/system";
 import Section1 from "./components/Section1";
 import Section2 from "./components/section2";
 import Section3 from "./components/Section3";
-import Strock2 from "./assets/strock2";
 import Section4 from "./components/section4";
-
-import GreenStrock from "./assets/greenStrock";
 import Section5 from "./components/section5";
 import CodeSpaceDemo from "./components/codespace";
 import Section6 from "./components/section6";
 import Section7 from "./components/section7";
-import FirstStrock from "./assets/firstStrock";
 import SvgStrocks from "./components/svgStrocks";
+import Section8 from "./components/section8";
+import CommitImage from "./components/commitImage";
 // import Strock from "./assets/strock";
 
 // import starship form "../src/assets/starShips.svg"
@@ -71,6 +68,18 @@ function App() {
         </Box>
 
         <Section7 />
+        <Box
+          sx={{
+            paddingLeft: { lg: "15rem", sm: "3rem", xs: "1rem" },
+            paddingRight: { lg: "15rem", sm: "3rem", xs: "1rem" },
+          }}
+        >
+          <Section8 />
+        </Box>
+
+        <Box>
+           <CommitImage/>
+        </Box>
 
         <SvgStrocks />
         {/* <img className="strock" src="../src/assets/strock.svg" /> */}

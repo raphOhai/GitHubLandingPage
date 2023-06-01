@@ -1,6 +1,6 @@
 import { Box, Grid, Stack, Typography } from "@mui/material";
 // import React from 'react'
-import { Center, Margin0Auto, grayText, section7Box } from ".";
+import { Margin0Auto, section7Box } from ".";
 import Copilotdemo from "./copilotdemo";
 import { useRef } from "react";
 import { Animate } from "./animations";

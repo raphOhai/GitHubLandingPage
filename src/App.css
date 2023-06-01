@@ -112,28 +112,51 @@ body {
   left: 9.5rem;
   z-index: -3;
 }
+
+.strockIcon4 {
+  position: absolute;
+  top: 273rem;
+  left: 9.5rem;
+  z-index: -3;
+}
 /* end of srock icons */
 
 /* strocks */
 .strock2 {
   position: absolute;
-  top:  52rem;
+  top: 52rem;
   left: 9.5rem;
   z-index: 5;
 }
 
 .strock3 {
   position: absolute;
-  top:84rem;
+  top: 84rem;
   left: 9.5rem;
   z-index: -3;
 }
 .strock4 {
   position: absolute;
-  top:152rem;
+  top: 152rem;
   left: 9.5rem;
   z-index: -3;
 }
+
+.strock5 {
+  position: absolute;
+  top: 263rem;
+  left: 9.5rem;
+  z-index: -3;
+}
+
+.strock6 {
+  position: absolute;
+  top: 274rem;
+  left: 9.5rem;
+  z-index: -3;
+}
+
+
 /* end of strocks */
 
 /* 
@@ -161,9 +184,9 @@ div {
   height: 1px;
   border-radius: 50%;
   background-color: #fff;
-  box-shadow: 0 0 30px 10px rgb(241, 80, 241), 0 0 0px 0px #f0f, 0 0 0px 0px #f0f;
+  box-shadow: 0 0 30px 10px rgb(241, 80, 241), 0 0 0px 0px #f0f,
+    0 0 0px 0px #f0f;
 }
-
 
 .GlowBox2 {
   /* position: absolute;
@@ -173,5 +196,18 @@ div {
   height: 1px;
   border-radius: 50%;
   background-color: #fff;
-  box-shadow: 0 0 30px 10px rgb(80, 241, 88), 0 0 0px 0px rgb(30, 255, 0), 0 0 0px 0px #f0f;
+  box-shadow: 0 0 30px 10px rgb(80, 241, 88), 0 0 0px 0px rgb(30, 255, 0),
+    0 0 0px 0px #f0f;
+}
+
+.GlowBox3 {
+  /* position: absolute;
+  top: cac(50% - 20px);
+  left: calc(50% - 20px); */
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 30px 10px rgb(241, 160, 80), 0 0 0px 0px rgb(255, 153, 0),
+    0 0 0px 0px #f0f;
 }

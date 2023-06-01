@@ -1,4 +1,4 @@
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Stack, } from "@mui/material";
 // p
 import { Margin0Auto, MyText, codeBox, section7Box } from ".";
 import PythonSvg from "../assets/python";

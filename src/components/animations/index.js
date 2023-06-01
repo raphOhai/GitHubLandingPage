@@ -1,5 +1,5 @@
 import { gsap } from "gsap";
-import { useEffect, useRef } from "react";
+import { useEffect,} from "react";
 
 export const Animate = (cardRef) => {
   

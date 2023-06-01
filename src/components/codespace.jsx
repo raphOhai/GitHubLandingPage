@@ -21,12 +21,12 @@ const CodeSpaceDemo = () => {
     overflow: "hidden",
     borderRadius: "10px",
   };
-  const RightBoxStyles = {
-    borderLeft: "1px solid #30363D",
-    alignItems: "center",
-    // display: "flex",
-    // justifyContent: "space-between",
-  };
+  // const RightBoxStyles = {
+  //   borderLeft: "1px solid #30363D",
+  //   alignItems: "center",
+  //   // display: "flex",
+  //   // justifyContent: "space-between",
+  // };
   const TerminalSearchBarStyles = {
     backgroundColor: "#0D1117",
     border: "1px solid #30363D",
