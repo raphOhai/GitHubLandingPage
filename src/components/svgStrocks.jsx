@@ -11,7 +11,7 @@ import GreenStrock from "../assets/greenStrock";
 import Strock5 from "../assets/strock5";
 import StrockIcon3 from "../assets/strockIcon3";
 import Strock6 from "../assets/strock6";
-
+import Strock7 from "../assets/strock7";
 
 const SvgStrocks = () => {
   return (
@@ -62,6 +62,9 @@ const SvgStrocks = () => {
       </Box>
       <Box className="strock6">
         <Strock6 />
+      </Box>
+      <Box className="strock7">
+        <Strock7 />
       </Box>
     </>
   );

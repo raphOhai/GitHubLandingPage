@@ -1,12 +1,19 @@
 import { Box, Grid, Stack, Typography } from "@mui/material";
 // import React from 'react'
 import "./styles/terminal.css";
+import { HideDextop, HideMobile, HideTabAndMobile } from ".";
 const Section5 = () => {
   return (
     <Box>
       <Grid container>
+        <Grid lg={6} sx={HideDextop}>
+          <Box className="pictureBox" >
+            <img className="picture2" src="src/assets/demo2.svg" />
+            <img className="picture" src="src/assets/demo1.svg" />
+          </Box>
+        </Grid>
         <Grid lg={6}>
-          <Box mt={7}>
+          <Box sx={{marginTop:{lg:"4rem",sm:"16rem",xs:"8rem"}}}>
             <Stack spacing={3}>
               <Typography
                 sx={{ fontSize: "1.5rem", fontWeight: 400, color: "white" }}
@@ -32,8 +39,8 @@ const Section5 = () => {
             </Stack>
           </Box>
         </Grid>
-        <Grid lg={6}>
-          <Box className="pictureBox">
+        <Grid lg={6} sx={HideTabAndMobile}>
+          <Box className="pictureBox" sx={HideMobile}>
             <img className="picture2" src="src/assets/demo2.svg" />
             <img className="picture" src="src/assets/demo1.svg" />
           </Box>

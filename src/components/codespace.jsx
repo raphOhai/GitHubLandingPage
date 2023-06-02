@@ -3,7 +3,17 @@ import LeftArrow from "../assets/leftArrow";
 import RightArrow from "../assets/rightArrow";
 import Lock from "../assets/lock";
 import Retry from "../assets/retry";
-import { Center, MyText } from ".";
+import {
+  AlignEnd,
+  Center,
+  HideDextop,
+  HideMobile,
+  HideMobileFlex,
+  HideTabAndMobile,
+  HideTabAndMobileFlex,
+  Margin0Auto,
+  MyText,
+} from ".";
 import Add from "../assets/add";
 import Piemenu from "../assets/piemenu";
 // import React from "react";
@@ -35,6 +45,11 @@ const CodeSpaceDemo = () => {
     padding: ".2rem",
     justifyContent: "space-between",
     borderRadius: "6px",
+    overflow: "hidden",
+    padding: ".2rem",
+   
+  
+    // with:"100%"
   };
   const greyTextStyles = {
     color: "#6E7681",
@@ -42,41 +57,67 @@ const CodeSpaceDemo = () => {
 
   return (
     <Box sx={{ overflow: "" }}>
-      <Box sx={MainTerminalStyles} mt={4} ml={12} mr={12}>
+      <Box sx={MainTerminalStyles} mt={4}>
         <Box
+          // p={2}
           sx={{
             borderBottom: "1px solid #30363D",
-            display: "flex",
-            justifyContent: "space-between",
           }}
           p={2}
         >
-          <Stack direction="row" spacing={3}>
-            <LeftArrow />
-            <RightArrow />
-          </Stack>
+          <Grid container>
+            <Grid item lg={3}>
+              <Stack direction="row" spacing={3} sx={HideTabAndMobileFlex}>
+                <LeftArrow />
+                <RightArrow />
+              </Stack>
+            </Grid>
+            <Grid item lg={6} sm={12} xs={12}>
+              <Box sx={TerminalSearchBarStyles}>
+                <Box p={.2}>
+                  <Margin0Auto>
+                    <Lock />
+                  </Margin0Auto>
+                </Box>
 
-          <Box sx={TerminalSearchBarStyles}>
-            <Center mt={0.3} pl={1} pt={0.3}>
-              <Lock />
-            </Center>
+                <Box>
+                  <MyText sx={HideTabAndMobile}>
+                    mona-github-github-g59jpq2w5w7.github.dev
+                  </MyText>
+                  <MyText sx={HideDextop}>mona-github</MyText>
+                </Box>
 
-            <MyText>mona-github-github-g59jpq2w5w7.github.dev</MyText>
-            <Center mt={0.3} pr={1} pt={0.3}>
-              <Retry />
-            </Center>
-          </Box>
-
-          <Add />
+                
+                <Box p={.2}>
+                  <Margin0Auto>
+                  <Retry />
+                  </Margin0Auto>
+                </Box>
+              </Box>
+            </Grid>
+            <Grid item lg={3}>
+              <AlignEnd>
+                <Box sx={HideTabAndMobileFlex}>
+                  <Add />
+                </Box>
+              </AlignEnd>{" "}
+            </Grid>
+          </Grid>
         </Box>
         <Grid container>
-          <Grid item lg={.7}>
+          <Grid item lg={0.7} sx={HideTabAndMobile}>
             <Center p={2}>
               <Piemenu />
             </Center>
             {/* <Box p={3} sx={RightBoxStyles}></Box> */}
           </Grid>
-          <Grid item lg={6} sx={{ borderLeft: "1px solid #30363D" }}>
+          <Grid
+            item
+            lg={6}
+            sm={6}
+            xs={12}
+            sx={{ borderLeft: "1px solid #30363D" }}
+          >
             <Stack>
               <Box mt={2} sx={{ display: "flex", gap: "1rem" }}>
                 <Center
@@ -99,7 +140,7 @@ const CodeSpaceDemo = () => {
               <Box
                 sx={{
                   backgroundColor: "#0D1117",
-                  overflow: "hidden",
+                  overflow: "scroll",
                   height: "1",
                 }}
               >
@@ -122,9 +163,10 @@ const CodeSpaceDemo = () => {
           <Grid
             item
             lg={5.3}
+            sm={6}
             sx={{ backgroundColor: "#040D21", borderLeft: "2px solid #30363D" }}
           >
-            <Stack>
+            <Stack sx={HideMobileFlex}>
               <Box
                 p={2}
                 sx={{

@@ -6,7 +6,7 @@
 .hero {
   background-image: url("../src/assets/star.svg");
   background-repeat: no-repeat;
-  /* overflow: hidden; */
+   /* overflow-y:hidden;  */
   width: 100vw;
   height: 230vh;
   /* object-fit: fil; */
@@ -40,6 +40,18 @@
   width: 100%;
   height: auto;
 }
+.rotate {
+  rotate: -15deg;
+}
+.boxShadow {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.roundImage {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
 body {
   background-color: #0d1117;
   /* overflow: hidden; */
@@ -55,12 +67,29 @@ body {
   z-index: -1;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .strock {
     position: absolute;
     top: -7rem;
-    left: -3rem;
+    left: 0rem;
+  }
+  .strockIcon2 {
+    position: absolute;
+    top: 35rem;
+    left: 1rem;
+    z-index: -3;
+  }
+
+  .strock2 {
+    position: absolute;
+    top: 37rem;
+    left: 1rem;
+    z-index: 5;
   }
 }
 
@@ -69,7 +98,20 @@ body {
   .strock {
     position: absolute;
     top: -1rem;
-    left: -2rem;
+    left: 1rem;
+  }
+  .strockIcon2 {
+    position: absolute;
+    top: 40rem;
+    left: 1.7rem;
+    z-index: -3;
+  }
+
+  .strock2 {
+    position: absolute;
+    top: 42rem;
+    left: 1.7rem;
+    z-index: 5;
   }
 }
 
@@ -78,7 +120,20 @@ body {
   .strock {
     position: absolute;
     top: -1rem;
-    left: -2rem;
+    left: 1rem;
+  }
+  .strockIcon2 {
+    position: absolute;
+    top: 40rem;
+    left: 1.7rem;
+    z-index: -3;
+  }
+
+  .strock2 {
+    position: absolute;
+    top: 42rem;
+    left: 1.7rem;
+    z-index: 5;
   }
 }
 
@@ -86,8 +141,21 @@ body {
 @media only screen and (min-width: 992px) {
   .strock {
     position: absolute;
-    top: 10rem;
-    left: 9.5rem;
+    top: 0rem;
+    left: 1rem;
+  }
+  .strockIcon2 {
+    position: absolute;
+    top: 41rem;
+    left: 1.7rem;
+    z-index: -3;
+  }
+
+  .strock2 {
+    position: absolute;
+    top: 42rem;
+    left: 1.7rem;
+    z-index: 5;
   }
 }
 
@@ -98,14 +166,27 @@ body {
     top: 10rem;
     left: 8.9rem;
   }
+  .strockIcon2 {
+    position: absolute;
+    top: 52rem;
+    left: 9.9rem;
+    z-index: -3;
+  }
+
+  .strock2 {
+    position: absolute;
+    top: 54rem;
+    left: 9.9rem;
+    z-index: 5;
+  }
 }
 /* strockicons */
-.strockIcon2 {
+/* .strockIcon2 {
   position: absolute;
   top: 50.8rem;
   left: 9.5rem;
   z-index: -3;
-}
+} */
 .strockIcon3 {
   position: absolute;
   top: 82rem;
@@ -122,12 +203,12 @@ body {
 /* end of srock icons */
 
 /* strocks */
-.strock2 {
+/* .strock2 {
   position: absolute;
   top: 52rem;
   left: 9.5rem;
   z-index: 5;
-}
+} */
 
 .strock3 {
   position: absolute;
@@ -155,7 +236,12 @@ body {
   left: 9.5rem;
   z-index: -3;
 }
-
+.strock7 {
+  position: absolute;
+  top: 345rem;
+  left: 6rem;
+  z-index: -3;
+}
 
 /* end of strocks */
 

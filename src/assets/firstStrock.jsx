@@ -3,7 +3,7 @@
 const FirstStrock = () => {
   return (
     <svg
-      width="437"
+      width="300"
       height="638"
       viewBox="0 0 437 638"
       fill="none"

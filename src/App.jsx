@@ -12,6 +12,13 @@ import Section7 from "./components/section7";
 import SvgStrocks from "./components/svgStrocks";
 import Section8 from "./components/section8";
 import CommitImage from "./components/commitImage";
+import Section9 from "./components/section9";
+import Section9Cards from "./components/section9Cards";
+import {
+  MainPadding,
+  MarginForDemoContents,
+  defaultPadding,
+} from "./components";
 // import Strock from "./assets/strock";
 
 // import starship form "../src/assets/starShips.svg"
@@ -20,14 +27,14 @@ function App() {
   return (
     <>
       <div className="hero">
-        <img className="spaceShip" src="../src/assets/starsShips.svg" />
-        <Box
-          pt={60}
-          sx={{
-            paddingLeft: { lg: "15rem", sm: "3rem", xs: "1rem" },
-            paddingRight: { lg: "15rem", sm: "3rem", xs: "1rem" },
-          }}
-        >
+        <Box className="spaceShip">
+          <img
+            className=" responsive"
+            src="../src/assets/starsShips.svg"
+          />
+        </Box>
+
+        <Box pt={50} sx={MainPadding}>
           <Stack spacing={6}>
             <>
               <Section1 />
@@ -41,48 +48,33 @@ function App() {
             <Section4 />
           </Box>
         </Box>
-        {/* <Box className="strock">
-          <Strock/>
 
-        </Box> */}
-        <Box p={2}>
+        <Box sx={defaultPadding}>
           <CodeSpaceDemo />
         </Box>
-        <Box
-          sx={{
-            paddingLeft: { lg: "15rem", sm: "3rem", xs: "1rem" },
-            paddingRight: { lg: "15rem", sm: "3rem", xs: "1rem" },
-          }}
-        >
+        <Box sx={MainPadding}>
           <Section5 />
         </Box>
-
         <div className="section6Pic"></div>
-        <Box
-          sx={{
-            paddingLeft: { lg: "15rem", sm: "3rem", xs: "1rem" },
-            paddingRight: { lg: "15rem", sm: "3rem", xs: "1rem" },
-          }}
-        >
+        <Box sx={MainPadding}>
           <Section6 />
         </Box>
-
-        <Section7 />
-        <Box
-          sx={{
-            paddingLeft: { lg: "15rem", sm: "3rem", xs: "1rem" },
-            paddingRight: { lg: "15rem", sm: "3rem", xs: "1rem" },
-          }}
-        >
+        <Box sx={defaultPadding}>
+          <Section7 />
+        </Box>
+        <Box sx={MainPadding}>
           <Section8 />
         </Box>
-
-        <Box>
-           <CommitImage/>
+        <Box sx={defaultPadding}>
+          <CommitImage />
         </Box>
-
-        <SvgStrocks />
-        {/* <img className="strock" src="../src/assets/strock.svg" /> */}
+        <Box sx={MainPadding}>
+          <Section9 />
+        </Box>
+        <Box sx={defaultPadding}>
+          <Section9Cards />
+        </Box>
+        {/* <SvgStrocks /> */}
       </div>
     </>
   );

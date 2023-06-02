@@ -1,5 +1,5 @@
 // import React from "react";
-import { Animate } from "../components/animations";
+// import { Animate } from "../components/animations";
 
 const Strock2 = () => {
   // Animate()

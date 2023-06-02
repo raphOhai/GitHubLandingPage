@@ -22,7 +22,7 @@ export const Margin0Auto = styled(Box)({
   // textAlign: "center",
   justifyContent: "center",
   alignItems: "center",
-  margin:"auto"
+  margin: "auto",
 });
 
 export const BlackBox = styled(Box)({
@@ -30,7 +30,7 @@ export const BlackBox = styled(Box)({
   backgroundColor: "black",
   display: "flex",
   borderRadius: "50px",
-  width: "24rem",
+  // width: "24rem",
   gap: "1rem",
 });
 export const FlexBox = styled(Box)({
@@ -40,25 +40,69 @@ export const FlexBox = styled(Box)({
 export const terminalBox = {
   backgroundColor: "#30363D",
   border: "1px solid #6E7681",
-  padding:"3rem"
-}
+  padding: "3rem",
+};
 
 export const section7Box = {
-  backgroundColor:"#161B22",
-  border:"1px solid #30363D",
-  borderRadius:"10px",
-  overflow:"hidden"
-}
+  backgroundColor: "#161B22",
+  border: "1px solid #30363D",
+  borderRadius: "10px",
+  overflow: "hidden",
+};
 
-export const grayText ={
-  color:"#8B949E"
-}
+export const grayText = {
+  color: "#8B949E",
+};
 
 export const codeBox = {
-  backgroundColor:"#0D1117"
-}
+  backgroundColor: "#0D1117",
+};
 
+export const HideMobile = {
+  display: { lg: "block", sm: "block", xs: "none" },
+};
 
+export const HideDextop = {
+  display: { lg: "none", sm: "block", xs: "block" },
+};
+export const HideTabAndMobile = {
+  display: { lg: "block", sm: "none", xs: "none" },
+};
 
+export const HideTab = {
+  display: { lg: "block", sm: "none", xs: "block" },
+};
 
+export const HideMobileFlex = {
+  display: { lg: "flex", sm: "flex", xs: "none" },
+};
+export const HideTabAndMobileFlex = {
+  display: { lg: "flex", sm: "none", xs: "none" },
+};
 
+export const HideTabFlex = {
+  display: { lg: "flex", sm: "none", xs: "flex" },
+};
+
+export const defaultPadding = {
+  paddingLeft: { lg: "3rem", sm: "2rem", xs: "1rem" },
+  paddingRight: { lg: "3rem", sm: "2rem", xs: "1rem" },
+};
+
+export const MainPadding = {
+  paddingLeft: { lg: "15rem", sm: "3rem", xs: "1.5rem" },
+  paddingRight: { lg: "15rem", sm: "3rem", xs: ".5rem" },
+};
+export const MarginForDemoContents = {
+  marginLeft: { lg: "3rem", sm: "3rem", xs: "1.5rem" },
+  marginRight: { lg: "3rem", sm: "3rem", xs: ".5rem" },
+};
+
+export const AlignStart = styled(Box)({
+  display: "flex",
+  justifyContent: "flex-start",
+});
+export const AlignEnd = styled(Box)({
+  display: "flex",
+  justifyContent: "flex-end",
+});
