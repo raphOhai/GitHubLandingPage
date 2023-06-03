@@ -85,12 +85,12 @@ export const HideTabFlex = {
 };
 
 export const defaultPadding = {
-  paddingLeft: { lg: "3rem", sm: "2rem", xs: "1rem" },
-  paddingRight: { lg: "3rem", sm: "2rem", xs: "1rem" },
+  paddingLeft: { lg: "3rem", sm: "1.5rem", xs: "1rem" },
+  paddingRight: { lg: "3rem", sm: "1.5rem", xs: "1rem" },
 };
 
 export const MainPadding = {
-  paddingLeft: { lg: "15rem", sm: "3rem", xs: "1.5rem" },
+  paddingLeft: { lg: "15rem", sm: "3rem", xs: "2.5rem" },
   paddingRight: { lg: "15rem", sm: "3rem", xs: ".5rem" },
 };
 export const MarginForDemoContents = {
@@ -106,3 +106,5 @@ export const AlignEnd = styled(Box)({
   display: "flex",
   justifyContent: "flex-end",
 });
+
+

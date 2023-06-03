@@ -14,11 +14,7 @@ import Section8 from "./components/section8";
 import CommitImage from "./components/commitImage";
 import Section9 from "./components/section9";
 import Section9Cards from "./components/section9Cards";
-import {
-  MainPadding,
-  MarginForDemoContents,
-  defaultPadding,
-} from "./components";
+import { MainPadding, defaultPadding } from "./components";
 // import Strock from "./assets/strock";
 
 // import starship form "../src/assets/starShips.svg"
@@ -27,39 +23,42 @@ function App() {
   return (
     <>
       <div className="hero">
-        <Box className="spaceShip">
-          <img
-            className=" responsive"
-            src="../src/assets/starsShips.svg"
-          />
+        <Box>
+          <img className="spaceShip" src="../src/assets/starsShips.svg" />
         </Box>
-
-        <Box pt={50} sx={MainPadding}>
-          <Stack spacing={6}>
-            <>
-              <Section1 />
-            </>
-
-            <Section2 />
-
-            <Section3 />
-          </Stack>
-          <Box mt={-8}>
-            <Section4 />
+        <Box sx={MainPadding}>
+          <Box sx={{ paddingTop: { lg: "28rem", sm: "20rem", xs: "10rem" } }}>
+            <Stack spacing={6}>
+              <>
+                <Section1 />
+              </>
+              <Section2 />
+              <Section3 />
+            </Stack>
+            <Box sx={{ marginTop: { lg: "-7rem", sm: "-10rem", xs: "-9rem" } }}>
+              <Box pl={3}>
+                <Section4 />
+              </Box>
+            </Box>
           </Box>
         </Box>
-
         <Box sx={defaultPadding}>
-          <CodeSpaceDemo />
+          <Box sx={{ marginTop: { sm: "6rem", lg: "2rem", xs: "3rem" } }}>
+            <CodeSpaceDemo />
+          </Box>
         </Box>
         <Box sx={MainPadding}>
           <Section5 />
         </Box>
         <div className="section6Pic"></div>
         <Box sx={MainPadding}>
-          <Section6 />
+          <Box sx={{ marginTop: { sm: "2rem", lg: "7rem", xs: "3rem" } }}>
+            <Section6 />
+          </Box>
         </Box>
         <Box sx={defaultPadding}>
+          <Box marginTop={{lg:"4rem",sm:"4rem", xs:"1rem"}}>
+          </Box>
           <Section7 />
         </Box>
         <Box sx={MainPadding}>
@@ -74,7 +73,7 @@ function App() {
         <Box sx={defaultPadding}>
           <Section9Cards />
         </Box>
-        {/* <SvgStrocks /> */}
+        <SvgStrocks />
       </div>
     </>
   );

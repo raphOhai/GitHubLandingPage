@@ -1,9 +1,10 @@
 // import React from "react";
 
-const FirstStrock = () => {
+const FirstStrockMobile = () => {
   return (
     <svg
-      width="300"
+      className="mobileFirstStrock"
+      width="260"
       height="638"
       viewBox="0 0 437 638"
       fill="none"
@@ -189,4 +190,4 @@ const FirstStrock = () => {
   );
 };
 
-export default FirstStrock;
+export default FirstStrockMobile;

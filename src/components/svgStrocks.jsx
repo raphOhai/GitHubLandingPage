@@ -1,23 +1,22 @@
 // import React from "react";
 import Strock2 from "../assets/strock2";
 
-import FirstStrock from "../assets/firstStrock";
 import { Box, Typography } from "@mui/material";
 import StrockIcon1 from "../assets/strockIcon1";
 
 import StrockIcon2 from "../assets/strockIcon2";
-import Strock3 from "../assets/strock3";
-import GreenStrock from "../assets/greenStrock";
+
+import CombineSvgGreen1 from "../assets/greenStrock/CombineSvgGreen1";
 import Strock5 from "../assets/strock5";
-import StrockIcon3 from "../assets/strockIcon3";
-import Strock6 from "../assets/strock6";
-import Strock7 from "../assets/strock7";
+import Strock3 from "../assets/strock3";
+
+
 
 const SvgStrocks = () => {
   return (
     <>
       <Box className="strock">
-        <FirstStrock />
+        <img src="src/assets/firstStrock1.svg" alt="" />
       </Box>
       <Box className="GlowBox1 strockIcon2 ">
         <Box sx={{ position: "relative" }}>
@@ -30,13 +29,14 @@ const SvgStrocks = () => {
       </Box>
       <div className="strock2 ">
         <Strock2 />
+        
       </div>
       <Box className="GlowBox2 strockIcon3 ">
         <Box sx={{ position: "relative" }}>
           <Box sx={{ position: "absolute", top: -9, left: -9 }}>
             <Typography>
               <StrockIcon2 />
-            </Typography>
+            </Typography>z
           </Box>
         </Box>
       </Box>
@@ -45,7 +45,7 @@ const SvgStrocks = () => {
       </div>
 
       <div className="strock4">
-        <GreenStrock />
+         <CombineSvgGreen1/>
       </div>
 
       <Box className="strock5">
@@ -55,16 +55,16 @@ const SvgStrocks = () => {
         <Box sx={{ position: "relative" }}>
           <Box sx={{ position: "absolute", top: -9, left: -9 }}>
             <Typography>
-              <StrockIcon3 />
+              {/* <StrockIcon3 /> */}
             </Typography>
           </Box>
         </Box>
       </Box>
       <Box className="strock6">
-        <Strock6 />
+        {/* <Strock6 /> */}
       </Box>
       <Box className="strock7">
-        <Strock7 />
+        {/* <Strock7 /> */}
       </Box>
     </>
   );

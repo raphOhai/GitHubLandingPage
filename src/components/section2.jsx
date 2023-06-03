@@ -15,7 +15,7 @@ const Section2 = () => {
           borderRadius: "5px",
           display: "flex",
           textAlign: "center",
-          marginTop:{lg:"0rem", sm:"0rem", xs:"1rem"}
+          marginTop:{lg:"0rem", sm:"0rem", xs:"-3rem"}
         }}
       >
         <Center>

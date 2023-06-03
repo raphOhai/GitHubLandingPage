@@ -25,7 +25,7 @@ const Section1 = () => {
               <MyText
                 sx={{
                   fontWeight: "bold",
-                  fontSize: { lg: ".9rem", xs: ".8.5rem" },
+                  fontSize: { lg: ".9rem", xs: ".7rem" },
                 }}
               >
                 Introducing GitHub Copilot X
@@ -55,7 +55,7 @@ const Section1 = () => {
       </BlackBox>
       <MyText
         sx={{
-          fontSize: { lg: "3rem", sm: "2rem", xs: "3rem" },
+          fontSize: { lg: "3rem", sm: "3rem", xs: "2.4rem" },
           fontWeight: "bold",
         }}
       >
@@ -64,7 +64,7 @@ const Section1 = () => {
       <Typography
         sx={{
           color: "#8B949E",
-          fontSize: { lg: "3rem", sm: "2rem", xs: "2rem" },
+          fontSize: { lg: "2.5rem", sm: "2rem", xs: "1.5rem" },
         }}
       >
         Harnessed for productivity. Designed for collaboration. Celebrated for

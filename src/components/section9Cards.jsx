@@ -83,7 +83,7 @@ const Section9Cards = () => {
                       <Margin0Auto >
                         <Stack spacing={10}>
                           <Typography
-                            sx={{ color: "#8B949E", fontSize: "1.5rem" }}
+                            sx={{ color: "#8B949E", fontSize: {lg:"1.5rem", sm:"1rem",xs:".9rem"} }}
                           >
                             <span style={{ color: "white" }}>
                               {" "}
@@ -96,7 +96,7 @@ const Section9Cards = () => {
                           <Box sx={{ display: "flex", gap: "1rem" }}>
                             <Typography
                               sx={{
-                                fontSize: "1.2rem",
+                                fontSize: {lg:"1.5rem", sm:"1rem",xs:".9rem"} ,
                                 fontWeight: "bold",
                                 color: "white",
                               }}

@@ -9,14 +9,16 @@ const Section4 = () => {
         <Typography sx={{ fontSize: "2rem", color: "white" }}>
           Productivity
         </Typography>
-
-
         <div>
           <Box maxWidth={900}>
             <Typography
               // className="maintext"
               variant="h2"
-              sx={{  fontSize: { lg: "3rem", sm: "2rem", xs: "2rem" }, color: "#7EE787", fontWeight: "400" }}
+              sx={{
+                fontSize: { lg: "3rem", sm: "2rem", xs: "1.5rem"},
+                color: "#7EE787",
+                fontWeight: "400",
+              }}
             >
               Accelerate high-quality software development.{" "}
               <span style={{ color: "white" }}>

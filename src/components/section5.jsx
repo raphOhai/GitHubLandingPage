@@ -7,16 +7,20 @@ const Section5 = () => {
     <Box>
       <Grid container>
         <Grid lg={6} sx={HideDextop}>
-          <Box className="pictureBox" >
+          <Box className="pictureBox">
             <img className="picture2" src="src/assets/demo2.svg" />
             <img className="picture" src="src/assets/demo1.svg" />
           </Box>
         </Grid>
         <Grid lg={6}>
-          <Box sx={{marginTop:{lg:"4rem",sm:"16rem",xs:"8rem"}}}>
+          <Box
+            sx={{ marginTop: { lg: "4rem", sm: "16rem", xs: "8rem" } }}
+            marginLeft={{ sx: "0rem", sm: "4rem" }}
+          >
             <Stack spacing={3}>
               <Typography
-                sx={{ fontSize: "1.5rem", fontWeight: 400, color: "white" }}
+                fontSize={{lg:"1.5rem", sm:"1.3rem"}}
+                sx={{ fontWeight: 400, color: "white" }}
               >
                 GitHub Codespaces{" "}
                 <span style={{ color: "#8B949E" }}>

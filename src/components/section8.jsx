@@ -4,8 +4,15 @@ import React from "react";
 const Section8 = () => {
   return (
     <>
-      <Box mt={16} className="maindiv">
-        <Typography sx={{ fontSize: "2rem", color: "white" }}>
+      <Box
+        marginLeft={{ sx: "0rem", sm: "4rem" }}
+        marginTop={{ lg: "3rem", sm: "2rem", xs: "1rem" }}
+        className="maindiv"
+      >
+        <Typography
+          fontSize={{ lg: "3rem", sm: "2rem", xs: "1.2rem" }}
+          sx={{ fontSize: "2rem", color: "white" }}
+        >
           Productivity
         </Typography>
 
@@ -14,10 +21,16 @@ const Section8 = () => {
             <Typography
               // className="maintext"
               variant="h2"
-              sx={{   fontSize: { lg: "3rem", sm: "2rem", xs: "2rem" }, color: "#FFA28B", fontWeight: "400" }}
+              sx={{
+                fontSize: { lg: "3rem", sm: "2rem", xs: "1.2rem" },
+                color: "#FFA28B",
+                fontWeight: "400",
+              }}
             >
               Supercharge collaboration.
-              <span style={{ color: "white" }}> We provide unlimited repositories, best-in-class version
+              <span style={{ color: "white" }}>
+                {" "}
+                We provide unlimited repositories, best-in-class version
                 control, and the world’s most powerful open source community—so
                 your team can work more efficiently together.
               </span>
@@ -25,8 +38,6 @@ const Section8 = () => {
           </Box>
         </div>
       </Box>
-
-    
     </>
   );
 };

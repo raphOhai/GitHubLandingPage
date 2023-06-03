@@ -1,14 +1,14 @@
-// import React from "react";
-// import { Animate } from "../components/animations";
+import { SvgResize } from "../hooks/svgResize";
 
-const Strock2 = () => {
-  // Animate()
+const Strock2Mobile = () => {
+  const height = SvgResize("<", 600, "455", "650");
+  //  console.log(size)
   return (
     <svg
-      className="svg"
-      width="4"
-      height="455"
-      viewBox="0 0 4 455"
+      className="transition"
+      width="5"
+      height={height}
+      viewBox="0 0 1 455"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -37,4 +37,4 @@ const Strock2 = () => {
   );
 };
 
-export default Strock2;
+export default Strock2Mobile;
