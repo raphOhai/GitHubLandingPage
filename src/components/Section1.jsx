@@ -26,7 +26,7 @@ const Section1 = () => {
               <MyText
                 sx={{
                   fontWeight: "bold",
-                  fontSize: { lg: ".9rem", xs: ".7rem" },
+                  fontSize: { lg: ".9rem", xs: ".6rem" },
                 }}
               >
                 Introducing GitHub Copilot X
