@@ -126,12 +126,12 @@ const Footer = () => {
               <Grid item lg={6} xs={12} sm={12}>
                 <AlignEnd>
                   <Box sx={{ display: "flex", gap: "1rem" }}>
-                    <img src="src/assets/footerIcons/Git.svg" />
-                    <img src="src/assets/footerIcons/faceBook.svg" />
-                    <img src="src/assets/footerIcons/LinkedIn.svg" />
-                    <img src="src/assets/footerIcons/ticktok.svg" />
-                    <img src="src/assets/footerIcons/twiter.svg" />
-                    <img src="src/assets/footerIcons/youtube.svg" />
+                    <img src="/footerIcons/Git.svg" />
+                    <img src="/footerIcons/faceBook.svg" />
+                    <img src="/footerIcons/LinkedIn.svg" />
+                    <img src="/footerIcons/ticktok.svg" />
+                    <img src="/footerIcons/twiter.svg" />
+                    <img src="/footerIcons/youtube.svg" />
                   </Box>
                 </AlignEnd>
               </Grid>
