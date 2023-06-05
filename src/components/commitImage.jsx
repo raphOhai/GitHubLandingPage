@@ -41,7 +41,7 @@ const CommitImage = () => {
               >
                 Check out GitHub Codespaces
               </Typography>
-              <img src="src/assets/Frame.svg" />
+             <GoArrow/>
             </Box>
           </Stack>
         </Box>

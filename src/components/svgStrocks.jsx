@@ -17,7 +17,7 @@ const SvgStrocks = () => {
   return (
     <>
       <Box className="strock">
-        <img src="src/assets/firstStrock1.svg" alt="" />
+        <img src="public/firstStrock1.svg" alt="" />
       </Box>
       <Box className="GlowBox1 strockIcon2 ">
         <Box sx={{ position: "relative" }}>

@@ -4,6 +4,7 @@ import { Margin0Auto, defaultPadding, section7Box } from ".";
 import { sponsors } from "./sposors";
 
 import SponserCards from "./sponserCards";
+import GoArrow from "../assets/goArrow";
 
 const Section9Cards = () => {
   console.log(sponsors);
@@ -31,7 +32,7 @@ const Section9Cards = () => {
                     >
                       Check out GitHub Codespaces
                     </Typography>
-                    <img src="src/assets/Frame.svg" />
+                   <GoArrow/>
                   </Box>
                 </Stack>
               </Box>
@@ -63,7 +64,7 @@ const Section9Cards = () => {
                     >
                       Check out GitHub Codespaces
                     </Typography>
-                    <img src="src/assets/Frame.svg" />
+                   <GoArrow/>
                   </Box>
                 </Stack>
               </Box>
@@ -103,7 +104,7 @@ const Section9Cards = () => {
                             >
                               Check out GitHub Codespaces
                             </Typography>
-                            <img src="src/assets/Frame.svg" />
+                           <GoArrow/>
                           </Box>
                         </Stack>
                       </Margin0Auto>

@@ -1,6 +1,8 @@
 import { Box, Grid, Stack, Typography } from "@mui/material";
 // import React from "react";
 import { BlackBox, Center, Margin0Auto, MyText } from ".";
+import Copilot from "../assets/copilot";
+import GoArrow from "../assets/goArrow";
 
 const Section1 = () => {
   return (
@@ -16,7 +18,7 @@ const Section1 = () => {
         <Grid container spacing={2}>
           <Grid item lg="2" sm="2" xs={3}>
             <Margin0Auto>
-              <img src="../../src/assets/pilot.svg" />
+              <img src="https://github.githubassets.com/images/modules/site/eyebrow-banner-icon-copilot-x.svg" />
             </Margin0Auto>
           </Grid>
           <Grid item lg="8" sm={8} xs={7}>
@@ -43,7 +45,8 @@ const Section1 = () => {
             <Box>
               <Box pt={2}>
                 <Center>
-                  <img src="src/assets/Frame.svg" />
+                  {/*<GoArrow/> */}
+                <GoArrow />
                 </Center>
               </Box>
             </Box>

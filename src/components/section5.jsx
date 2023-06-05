@@ -3,6 +3,7 @@ import { Box, Grid, Stack, Typography } from "@mui/material";
 import "./styles/terminal.css";
 import { HideDextop, HideMobile, HideTabAndMobile } from ".";
 import AbsoluteAnimator from "./animations/absoluteRender";
+import GoArrow from "../assets/goArrow";
 const Section5 = () => {
   AbsoluteAnimator("picture", "pictureA");
   return (
@@ -49,7 +50,7 @@ const Section5 = () => {
                 >
                   Check out GitHub Codespaces
                 </Typography>
-                <img src="src/assets/Frame.svg" />
+                <GoArrow />
               </Box>
             </Stack>
           </Box>

@@ -4,6 +4,7 @@ import { Margin0Auto, defaultPadding, section7Box } from ".";
 import Copilotdemo from "./copilotdemo";
 import { useRef } from "react";
 import ScaleAnimator from "./animations/scaleAnimation";
+import GoArrow from "../assets/goArrow";
 // import { Animate } from "./animations";
 
 const Section7 = () => {
@@ -35,7 +36,7 @@ const Section7 = () => {
                     >
                       Check out GitHub Codespaces
                     </Typography>
-                    <img src="src/assets/Frame.svg" />
+                    <GoArrow />
                   </Box>
                 </Stack>
               </Margin0Auto>
@@ -71,7 +72,7 @@ const Section7 = () => {
                       >
                         Check out GitHub Codespaces
                       </Typography>
-                      <img src="src/assets/Frame.svg" />
+                     <GoArrow/>
                     </Box>
                   </Stack>
                 </Margin0Auto>
@@ -107,7 +108,7 @@ const Section7 = () => {
                       >
                         Check out GitHub Codespaces
                       </Typography>
-                      <img src="src/assets/Frame.svg" />
+                      <GoArrow />
                     </Box>
                   </Stack>
                 </Margin0Auto>
@@ -144,7 +145,7 @@ const Section7 = () => {
                       >
                         Check out GitHub Codespaces
                       </Typography>
-                      <img src="src/assets/Frame.svg" />
+                      <GoArrow />
                     </Box>
                   </Stack>
                 </Margin0Auto>
