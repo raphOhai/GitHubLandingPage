@@ -5,8 +5,8 @@ import { Box, Typography } from "@mui/material";
 const Section4 = () => {
   return (
     <>
-      <div className="maindiv">
-        <Typography sx={{ fontSize: "2rem", color: "white" }}>
+      <div className="maindiv sideSlide">
+        <Typography className="Observeriii" sx={{ fontSize: "2rem", color: "white" }}>
           Productivity
         </Typography>
         <div>

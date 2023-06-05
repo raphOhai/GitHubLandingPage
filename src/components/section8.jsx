@@ -1,12 +1,18 @@
 import { Box, Typography } from "@mui/material";
-import React from "react";
+// import React from "react";
+import Strock5 from "../assets/strock5";
+import StrockIcon3 from "../assets/strockIcon3";
+import Strock6 from "../assets/strock6";
+import { useSelector } from "react-redux";
 
 const Section8 = () => {
+  const { strock4 } = useSelector((state) => state.animationSteps);
   return (
     <>
       <Box
+        position={"relative"}
         marginLeft={{ sx: "0rem", sm: "4rem" }}
-        marginTop={{ lg: "3rem", sm: "2rem", xs: "1rem" }}
+        marginTop={{ lg: "9rem", sm: "9rem", xs: "8rem" }}
         className="maindiv"
       >
         <Typography
@@ -17,12 +23,12 @@ const Section8 = () => {
         </Typography>
 
         <div>
-          <Box maxWidth={900}>
+          <Box className="sideSlide" maxWidth={900}>
             <Typography
-              // className="maintext"
+              className="Observeriv"
               variant="h2"
               sx={{
-                fontSize: { lg: "3rem", sm: "2rem", xs: "1.2rem" },
+                fontSize: { lg: "3rem", sm: "2rem", xs: "1.8rem" },
                 color: "#FFA28B",
                 fontWeight: "400",
               }}
@@ -37,6 +43,29 @@ const Section8 = () => {
             </Typography>
           </Box>
         </div>
+        <Box
+          sx={{
+            position: "absolute",
+            top: -150,
+            left: { lg: -140, sm: -70, xs: -20 },
+            zIndex: -400,
+          }}
+        >
+          <Strock5 />
+          <Box></Box>
+          <Box mt={2} className="GlowBox3 ">
+            <Box sx={{ position: "relative" }}>
+              <Box sx={{ position: "absolute", top: -9, left: -9 }}>
+                <Typography className="transition2" display={strock4 ? "block" : "none"}>
+                  <StrockIcon3 />
+                </Typography>
+              </Box>
+            </Box>
+            <Box pt={2} className="">
+              <Strock6 />{" "}
+            </Box>
+          </Box>
+        </Box>
       </Box>
     </>
   );

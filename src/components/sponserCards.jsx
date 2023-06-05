@@ -15,7 +15,7 @@ const SponserCards = () => {
       className="rotate"
     >
       {sponsors.map((spons) => (
-        <Grid key={spons._id} item lg={4} sm={3} xs={6}>
+        <Grid className="SlideUp group" key={spons._id} item lg={4} sm={3} xs={6}>
           <Box
             sx={section7Box}
             minHeight={200}

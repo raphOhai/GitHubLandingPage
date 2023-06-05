@@ -65,6 +65,16 @@ export const HideMobile = {
 export const HideDextop = {
   display: { lg: "none", sm: "block", xs: "block" },
 };
+
+export const HideDextopFlex = {
+  display: { lg: "none", sm: "flex", xs: "flex" },
+};
+// export const HideDextopAndTabFlex = {
+//   display: { lg: "none", sm: "flex", xs: "flex" },
+// };
+export const HideDextopAndTabFlex = {
+  display: { lg: "none", sm: "none", xs: "flex" },
+};
 export const HideTabAndMobile = {
   display: { lg: "block", sm: "none", xs: "none" },
 };
@@ -85,8 +95,8 @@ export const HideTabFlex = {
 };
 
 export const defaultPadding = {
-  paddingLeft: { lg: "3rem", sm: "1.5rem", xs: "1rem" },
-  paddingRight: { lg: "3rem", sm: "1.5rem", xs: "1rem" },
+  paddingLeft: { lg: "6rem", sm: "1.5rem", xs: "1rem" },
+  paddingRight: { lg: "6rem", sm: "1.5rem", xs: "1rem" },
 };
 
 export const MainPadding = {

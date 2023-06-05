@@ -31,8 +31,16 @@
   .picture {
     position: absolute;
     top: -6rem;
-    left: 4rem;
-    width: 200px;
+    left: 1.3rem;
+    width: 300px;
+    
+  }
+  .pictureA{
+    position: absolute;
+    top: -6rem;
+    left: -1rem;
+    width: 300px;
+
   }
 
   .picture2 {
@@ -52,6 +60,13 @@
     left: 7rem;
     /* width: 200px; */
   }
+  .pictureA{
+    position: absolute;
+    top: -6rem;
+    left: 0rem;
+    /* width: 300px; */
+
+  }
 
   .picture2 {
     position: absolute;
@@ -69,6 +84,13 @@
     top: -6rem;
     left: 7rem;
     /* width: 200px; */
+  }
+  .pictureA{
+    position: absolute;
+    top: -6rem;
+    left: 20rem;
+    /* width: 300px; */
+
   }
 
   .picture2 {
@@ -89,10 +111,18 @@
     /* width: 200px; */
   }
 
+  .pictureA{
+    position: absolute;
+    top: -6rem;
+    left: 20rem;
+    /* width: 300px; */
+
+  }
+
   .picture2 {
     position: absolute;
     top: 3rem;
-    left: -1rem;
+    left: 6rem;
     /* width: 200px; */
     /* z-index: -3; */
   }
@@ -105,6 +135,14 @@
     top: -6rem;
     left: 7rem;
     /* width: 200px; */
+  }
+
+  .pictureA{
+    position: absolute;
+    top: -6rem;
+    left: 9rem;
+    /* width: 300px; */
+
   }
 
   .picture2 {

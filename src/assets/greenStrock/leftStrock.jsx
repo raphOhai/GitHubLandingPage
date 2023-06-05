@@ -1,12 +1,17 @@
 import React from "react";
 import { SvgResize } from "../../hooks/svgResize";
-
+import Animate from "../../components/animations";
+import { useDispatch, useSelector } from "react-redux";
+import { Step2, revertStep2 } from "../../reducer/animationSteps";
 const LeftStrockCurve = () => {
-    const height = SvgResize("<", 600, "452", "0");
+  const height = SvgResize("<", 600, "452", "0");
+  const { strock2 } = useSelector((state) => state.animationSteps);
+  Animate("Observerii", Step2,  revertStep2);
   return (
     <svg
       width="58"
-      height={height}
+      className="transition"
+      height={strock2 ? height : "0"}
       viewBox="0 0 58 452"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

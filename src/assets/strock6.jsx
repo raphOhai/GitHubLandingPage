@@ -1,11 +1,17 @@
 import React from "react";
+import { useSelector } from "react-redux";
+import Animate from "../components/animations";
+import { Step5, revertStep5 } from "../reducer/animationSteps";
 
 const Strock6 = () => {
+  const { strock5 } = useSelector((state) => state.animationSteps);
+  Animate("Observeriv", Step5,  revertStep5);
   return (
     <svg
-      width="4"
-      height="381"
-      viewBox="0 0 4 381"
+      width="6"
+      className="transition"
+      height={strock5 ? 600 : "0"}
+      viewBox="0 0 1 381"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

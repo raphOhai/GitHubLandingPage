@@ -1,0 +1,100 @@
+"filename", "language", "Markdown", "JavaScript", "HTML", "JSON", "CSS", "JavaScript JSX", "XML", "comment", "blank", "total"
+"/home/raphaelohai5/GitHubLandingPage/.eslintrc.cjs", "JavaScript", 0, 15, 0, 0, 0, 0, 0, 0, 1, 16
+"/home/raphaelohai5/GitHubLandingPage/README.md", "Markdown", 1, 0, 0, 0, 0, 0, 0, 0, 1, 2
+"/home/raphaelohai5/GitHubLandingPage/index.html", "HTML", 0, 0, 13, 0, 0, 0, 0, 0, 1, 14
+"/home/raphaelohai5/GitHubLandingPage/package-lock.json", "JSON", 0, 0, 0, 3792, 0, 0, 0, 0, 1, 3793
+"/home/raphaelohai5/GitHubLandingPage/package.json", "JSON", 0, 0, 0, 34, 0, 0, 0, 0, 1, 35
+"/home/raphaelohai5/GitHubLandingPage/public/vite.svg", "XML", 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"/home/raphaelohai5/GitHubLandingPage/src/App.css", "CSS", 0, 0, 0, 0, 414, 0, 0, 54, 38, 506
+"/home/raphaelohai5/GitHubLandingPage/src/App.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 79, 0, 2, 5, 86
+"/home/raphaelohai5/GitHubLandingPage/src/assets/Auto Layout Horizontal (1).svg", "XML", 0, 0, 0, 0, 0, 0, 12, 0, 1, 13
+"/home/raphaelohai5/GitHubLandingPage/src/assets/Auto Layout Horizontal (3).svg", "XML", 0, 0, 0, 0, 0, 0, 12, 0, 1, 13
+"/home/raphaelohai5/GitHubLandingPage/src/assets/Auto Layout Horizontal (4).svg", "XML", 0, 0, 0, 0, 0, 0, 17, 0, 1, 18
+"/home/raphaelohai5/GitHubLandingPage/src/assets/Frame (1).svg", "XML", 0, 0, 0, 0, 0, 0, 3, 0, 1, 4
+"/home/raphaelohai5/GitHubLandingPage/src/assets/Frame (5).svg", "XML", 0, 0, 0, 0, 0, 0, 15, 0, 1, 16
+"/home/raphaelohai5/GitHubLandingPage/src/assets/Frame (6).svg", "XML", 0, 0, 0, 0, 0, 0, 15, 0, 1, 16
+"/home/raphaelohai5/GitHubLandingPage/src/assets/Frame (7).svg", "XML", 0, 0, 0, 0, 0, 0, 20, 0, 1, 21
+"/home/raphaelohai5/GitHubLandingPage/src/assets/Frame.svg", "XML", 0, 0, 0, 0, 0, 0, 5, 0, 1, 6
+"/home/raphaelohai5/GitHubLandingPage/src/assets/GoSvg.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 1, 3, 21
+"/home/raphaelohai5/GitHubLandingPage/src/assets/JsSvg.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 1, 3, 21
+"/home/raphaelohai5/GitHubLandingPage/src/assets/add.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 18, 0, 0, 3, 21
+"/home/raphaelohai5/GitHubLandingPage/src/assets/bell.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 1, 3, 21
+"/home/raphaelohai5/GitHubLandingPage/src/assets/commitDemo.svg", "XML", 0, 0, 0, 0, 0, 0, 52, 0, 1, 53
+"/home/raphaelohai5/GitHubLandingPage/src/assets/demo1.svg", "XML", 0, 0, 0, 0, 0, 0, 63, 0, 1, 64
+"/home/raphaelohai5/GitHubLandingPage/src/assets/demo2.svg", "XML", 0, 0, 0, 0, 0, 0, 57, 0, 1, 58
+"/home/raphaelohai5/GitHubLandingPage/src/assets/demoImage1.svg", "XML", 0, 0, 0, 0, 0, 0, 9, 0, 1, 10
+"/home/raphaelohai5/GitHubLandingPage/src/assets/demoImage2.svg", "XML", 0, 0, 0, 0, 0, 0, 9, 0, 1, 10
+"/home/raphaelohai5/GitHubLandingPage/src/assets/firstStrock.svg", "XML", 0, 0, 0, 0, 0, 0, 185, 0, 2, 187
+"/home/raphaelohai5/GitHubLandingPage/src/assets/firstStrock1.svg", "XML", 0, 0, 0, 0, 0, 0, 66, 0, 1, 67
+"/home/raphaelohai5/GitHubLandingPage/src/assets/firstStrockMobile.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 190, 0, 1, 3, 194
+"/home/raphaelohai5/GitHubLandingPage/src/assets/gitHubCat.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 1, 3, 21
+"/home/raphaelohai5/GitHubLandingPage/src/assets/greenCurve.svg", "XML", 0, 0, 0, 0, 0, 0, 14, 0, 1, 15
+"/home/raphaelohai5/GitHubLandingPage/src/assets/greenStrock/CombineSvgGreen1.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 13, 0, 0, 3, 16
+"/home/raphaelohai5/GitHubLandingPage/src/assets/greenStrock/greenStrock5.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 37, 0, 2, 3, 42
+"/home/raphaelohai5/GitHubLandingPage/src/assets/greenStrock/leftStrock.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 45, 0, 0, 2, 47
+"/home/raphaelohai5/GitHubLandingPage/src/assets/heart.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 1, 3, 21
+"/home/raphaelohai5/GitHubLandingPage/src/assets/leftArrow.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 0, 2, 19
+"/home/raphaelohai5/GitHubLandingPage/src/assets/lock.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 0, 2, 19
+"/home/raphaelohai5/GitHubLandingPage/src/assets/miniPie.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 1, 3, 21
+"/home/raphaelohai5/GitHubLandingPage/src/assets/newRender.svg", "XML", 0, 0, 0, 0, 0, 0, 9, 0, 1, 10
+"/home/raphaelohai5/GitHubLandingPage/src/assets/orangeCombinesvg/combineSvgOr.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 13, 0, 0, 3, 16
+"/home/raphaelohai5/GitHubLandingPage/src/assets/orangeCombinesvg/leftCurve.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 45, 0, 0, 4, 49
+"/home/raphaelohai5/GitHubLandingPage/src/assets/orangeCombinesvg/orangeStrock.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 40, 0, 1, 3, 44
+"/home/raphaelohai5/GitHubLandingPage/src/assets/piemenu.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 0, 2, 19
+"/home/raphaelohai5/GitHubLandingPage/src/assets/pilot.svg", "XML", 0, 0, 0, 0, 0, 0, 17, 0, 1, 18
+"/home/raphaelohai5/GitHubLandingPage/src/assets/planet.svg", "XML", 0, 0, 0, 0, 0, 0, 9, 0, 1, 10
+"/home/raphaelohai5/GitHubLandingPage/src/assets/python.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 1, 3, 21
+"/home/raphaelohai5/GitHubLandingPage/src/assets/react.svg", "XML", 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"/home/raphaelohai5/GitHubLandingPage/src/assets/retry.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 0, 2, 19
+"/home/raphaelohai5/GitHubLandingPage/src/assets/rightArrow.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 0, 2, 19
+"/home/raphaelohai5/GitHubLandingPage/src/assets/section9Image1.svg", "XML", 0, 0, 0, 0, 0, 0, 9, 0, 1, 10
+"/home/raphaelohai5/GitHubLandingPage/src/assets/section9Image2.svg", "XML", 0, 0, 0, 0, 0, 0, 9, 0, 1, 10
+"/home/raphaelohai5/GitHubLandingPage/src/assets/srock2.svg", "XML", 0, 0, 0, 0, 0, 0, 12, 0, 1, 13
+"/home/raphaelohai5/GitHubLandingPage/src/assets/star.svg", "XML", 0, 0, 0, 0, 0, 0, 9, 0, 1, 10
+"/home/raphaelohai5/GitHubLandingPage/src/assets/stars.svg", "XML", 0, 0, 0, 0, 0, 0, 9, 0, 1, 10
+"/home/raphaelohai5/GitHubLandingPage/src/assets/stars6.svg", "XML", 0, 0, 0, 0, 0, 0, 9, 0, 1, 10
+"/home/raphaelohai5/GitHubLandingPage/src/assets/starsShips.svg", "XML", 0, 0, 0, 0, 0, 0, 9, 0, 1, 10
+"/home/raphaelohai5/GitHubLandingPage/src/assets/strock.svg", "XML", 0, 0, 0, 0, 0, 0, 76, 0, 1, 77
+"/home/raphaelohai5/GitHubLandingPage/src/assets/strock1.svg", "XML", 0, 0, 0, 0, 0, 0, 66, 0, 1, 67
+"/home/raphaelohai5/GitHubLandingPage/src/assets/strock2.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 42, 0, 1, 2, 45
+"/home/raphaelohai5/GitHubLandingPage/src/assets/strock2Dextop.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 35, 0, 5, 5, 45
+"/home/raphaelohai5/GitHubLandingPage/src/assets/strock3.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 40, 0, 1, 4, 45
+"/home/raphaelohai5/GitHubLandingPage/src/assets/strock5.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 42, 0, 0, 3, 45
+"/home/raphaelohai5/GitHubLandingPage/src/assets/strock6.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 43, 0, 0, 3, 46
+"/home/raphaelohai5/GitHubLandingPage/src/assets/strock7.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 166, 0, 1, 3, 170
+"/home/raphaelohai5/GitHubLandingPage/src/assets/strockIcon1.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 1, 3, 21
+"/home/raphaelohai5/GitHubLandingPage/src/assets/strockIcon2.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 17, 0, 1, 3, 21
+"/home/raphaelohai5/GitHubLandingPage/src/assets/strockIcon3.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 18, 0, 0, 3, 21
+"/home/raphaelohai5/GitHubLandingPage/src/components/Section1.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 74, 0, 2, 5, 81
+"/home/raphaelohai5/GitHubLandingPage/src/components/Section3.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 44, 0, 1, 3, 48
+"/home/raphaelohai5/GitHubLandingPage/src/components/animations/absoluteRender.js", "JavaScript", 0, 16, 0, 0, 0, 0, 0, 1, 2, 19
+"/home/raphaelohai5/GitHubLandingPage/src/components/animations/index.js", "JavaScript", 0, 17, 0, 0, 0, 0, 0, 1, 3, 21
+"/home/raphaelohai5/GitHubLandingPage/src/components/animations/slideAnimator.js", "JavaScript", 0, 21, 0, 0, 0, 0, 0, 1, 2, 24
+"/home/raphaelohai5/GitHubLandingPage/src/components/codedemo.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 66, 0, 3, 8, 77
+"/home/raphaelohai5/GitHubLandingPage/src/components/codespace.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 177, 0, 11, 8, 196
+"/home/raphaelohai5/GitHubLandingPage/src/components/commitImage.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 23, 0, 28, 3, 54
+"/home/raphaelohai5/GitHubLandingPage/src/components/commitsDemo.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 66, 0, 0, 5, 71
+"/home/raphaelohai5/GitHubLandingPage/src/components/copilotdemo.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 35, 0, 1, 5, 41
+"/home/raphaelohai5/GitHubLandingPage/src/components/index.js", "JavaScript", 0, 93, 0, 0, 0, 0, 0, 7, 21, 121
+"/home/raphaelohai5/GitHubLandingPage/src/components/section2.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 115, 0, 3, 3, 121
+"/home/raphaelohai5/GitHubLandingPage/src/components/section4.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 32, 0, 2, 3, 37
+"/home/raphaelohai5/GitHubLandingPage/src/components/section5.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 59, 0, 1, 3, 63
+"/home/raphaelohai5/GitHubLandingPage/src/components/section6.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 57, 0, 1, 3, 61
+"/home/raphaelohai5/GitHubLandingPage/src/components/section7.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 116, 0, 3, 8, 127
+"/home/raphaelohai5/GitHubLandingPage/src/components/section8.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 70, 0, 1, 4, 75
+"/home/raphaelohai5/GitHubLandingPage/src/components/section9.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 56, 0, 1, 5, 62
+"/home/raphaelohai5/GitHubLandingPage/src/components/section9Cards.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 118, 0, 1, 7, 126
+"/home/raphaelohai5/GitHubLandingPage/src/components/sponserCards.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 62, 0, 1, 4, 67
+"/home/raphaelohai5/GitHubLandingPage/src/components/sposors.js", "JavaScript", 0, 46, 0, 0, 0, 0, 0, 0, 1, 47
+"/home/raphaelohai5/GitHubLandingPage/src/components/styles/commitImage.css", "CSS", 0, 0, 0, 0, 86, 0, 0, 6, 6, 98
+"/home/raphaelohai5/GitHubLandingPage/src/components/styles/section4.css", "CSS", 0, 0, 0, 0, 15, 0, 0, 2, 3, 20
+"/home/raphaelohai5/GitHubLandingPage/src/components/styles/terminal.css", "CSS", 0, 0, 0, 0, 112, 0, 0, 23, 21, 156
+"/home/raphaelohai5/GitHubLandingPage/src/components/svgStrocks.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 46, 0, 18, 8, 72
+"/home/raphaelohai5/GitHubLandingPage/src/hooks/index.js", "JavaScript", 0, 18, 0, 0, 0, 0, 0, 8, 3, 29
+"/home/raphaelohai5/GitHubLandingPage/src/hooks/svgResize.js", "JavaScript", 0, 33, 0, 0, 0, 0, 0, 0, 2, 35
+"/home/raphaelohai5/GitHubLandingPage/src/index.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 15, 1, 16
+"/home/raphaelohai5/GitHubLandingPage/src/main.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 13, 0, 0, 1, 14
+"/home/raphaelohai5/GitHubLandingPage/src/reducer/animationSteps.js", "JavaScript", 0, 51, 0, 0, 0, 0, 0, 0, 1, 52
+"/home/raphaelohai5/GitHubLandingPage/src/reducer/index.js", "JavaScript", 0, 8, 0, 0, 0, 0, 0, 0, 2, 10
+"/home/raphaelohai5/GitHubLandingPage/vite.config.js", "JavaScript", 0, 5, 0, 0, 0, 0, 0, 1, 2, 8
+"Total", "-", 1, 323, 13, 3826, 627, 2333, 799, 220, 317, 8459

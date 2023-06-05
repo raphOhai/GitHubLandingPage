@@ -1,0 +1,142 @@
+Date : 2023-06-04 01:33:21
+Directory : /home/raphaelohai5/GitHubLandingPage
+Total : 98 files,  7922 codes, 220 comments, 317 blanks, all 8459 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          2 |      3,826 |          0 |          2 |      3,828 |
+| JavaScript JSX |         48 |      2,333 |        101 |        175 |      2,609 |
+| XML            |         30 |        799 |          0 |         29 |        828 |
+| CSS            |          5 |        627 |        100 |         69 |        796 |
+| JavaScript     |         11 |        323 |         19 |         40 |        382 |
+| HTML           |          1 |         13 |          0 |          1 |         14 |
+| Markdown       |          1 |          1 |          0 |          1 |          2 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                              | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                 |         98 |      7,922 |        220 |        317 |      8,459 |
+| . (Files)                                                                         |          6 |      3,860 |          1 |          7 |      3,868 |
+| public                                                                            |          1 |          1 |          0 |          0 |          1 |
+| src                                                                               |         91 |      4,061 |        219 |        310 |      4,590 |
+| src (Files)                                                                       |          4 |        506 |         71 |         45 |        622 |
+| src/assets                                                                        |         58 |      1,823 |         21 |        113 |      1,957 |
+| src/assets (Files)                                                                |         52 |      1,630 |         18 |         95 |      1,743 |
+| src/assets/greenStrock                                                            |          3 |         95 |          2 |          8 |        105 |
+| src/assets/orangeCombinesvg                                                       |          3 |         98 |          1 |         10 |        109 |
+| src/components                                                                    |         25 |      1,622 |        119 |        144 |      1,885 |
+| src/components (Files)                                                            |         19 |      1,355 |         85 |        107 |      1,547 |
+| src/components/animations                                                         |          3 |         54 |          3 |          7 |         64 |
+| src/components/styles                                                             |          3 |        213 |         31 |         30 |        274 |
+| src/hooks                                                                         |          2 |         51 |          8 |          5 |         64 |
+| src/reducer                                                                       |          2 |         59 |          0 |          3 |         62 |
++-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                          | language       | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| /home/raphaelohai5/GitHubLandingPage/.eslintrc.cjs                                | JavaScript     |         15 |          0 |          1 |         16 |
+| /home/raphaelohai5/GitHubLandingPage/README.md                                    | Markdown       |          1 |          0 |          1 |          2 |
+| /home/raphaelohai5/GitHubLandingPage/index.html                                   | HTML           |         13 |          0 |          1 |         14 |
+| /home/raphaelohai5/GitHubLandingPage/package-lock.json                            | JSON           |      3,792 |          0 |          1 |      3,793 |
+| /home/raphaelohai5/GitHubLandingPage/package.json                                 | JSON           |         34 |          0 |          1 |         35 |
+| /home/raphaelohai5/GitHubLandingPage/public/vite.svg                              | XML            |          1 |          0 |          0 |          1 |
+| /home/raphaelohai5/GitHubLandingPage/src/App.css                                  | CSS            |        414 |         54 |         38 |        506 |
+| /home/raphaelohai5/GitHubLandingPage/src/App.jsx                                  | JavaScript JSX |         79 |          2 |          5 |         86 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/Auto Layout Horizontal (1).svg    | XML            |         12 |          0 |          1 |         13 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/Auto Layout Horizontal (3).svg    | XML            |         12 |          0 |          1 |         13 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/Auto Layout Horizontal (4).svg    | XML            |         17 |          0 |          1 |         18 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/Frame (1).svg                     | XML            |          3 |          0 |          1 |          4 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/Frame (5).svg                     | XML            |         15 |          0 |          1 |         16 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/Frame (6).svg                     | XML            |         15 |          0 |          1 |         16 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/Frame (7).svg                     | XML            |         20 |          0 |          1 |         21 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/Frame.svg                         | XML            |          5 |          0 |          1 |          6 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/GoSvg.jsx                         | JavaScript JSX |         17 |          1 |          3 |         21 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/JsSvg.jsx                         | JavaScript JSX |         17 |          1 |          3 |         21 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/add.jsx                           | JavaScript JSX |         18 |          0 |          3 |         21 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/bell.jsx                          | JavaScript JSX |         17 |          1 |          3 |         21 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/commitDemo.svg                    | XML            |         52 |          0 |          1 |         53 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/demo1.svg                         | XML            |         63 |          0 |          1 |         64 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/demo2.svg                         | XML            |         57 |          0 |          1 |         58 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/demoImage1.svg                    | XML            |          9 |          0 |          1 |         10 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/demoImage2.svg                    | XML            |          9 |          0 |          1 |         10 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/firstStrock.svg                   | XML            |        185 |          0 |          2 |        187 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/firstStrock1.svg                  | XML            |         66 |          0 |          1 |         67 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/firstStrockMobile.jsx             | JavaScript JSX |        190 |          1 |          3 |        194 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/gitHubCat.jsx                     | JavaScript JSX |         17 |          1 |          3 |         21 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/greenCurve.svg                    | XML            |         14 |          0 |          1 |         15 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/greenStrock/CombineSvgGreen1.jsx  | JavaScript JSX |         13 |          0 |          3 |         16 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/greenStrock/greenStrock5.jsx      | JavaScript JSX |         37 |          2 |          3 |         42 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/greenStrock/leftStrock.jsx        | JavaScript JSX |         45 |          0 |          2 |         47 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/heart.jsx                         | JavaScript JSX |         17 |          1 |          3 |         21 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/leftArrow.jsx                     | JavaScript JSX |         17 |          0 |          2 |         19 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/lock.jsx                          | JavaScript JSX |         17 |          0 |          2 |         19 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/miniPie.jsx                       | JavaScript JSX |         17 |          1 |          3 |         21 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/newRender.svg                     | XML            |          9 |          0 |          1 |         10 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/orangeCombinesvg/combineSvgOr.jsx | JavaScript JSX |         13 |          0 |          3 |         16 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/orangeCombinesvg/leftCurve.jsx    | JavaScript JSX |         45 |          0 |          4 |         49 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/orangeCombinesvg/orangeStrock.jsx | JavaScript JSX |         40 |          1 |          3 |         44 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/piemenu.jsx                       | JavaScript JSX |         17 |          0 |          2 |         19 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/pilot.svg                         | XML            |         17 |          0 |          1 |         18 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/planet.svg                        | XML            |          9 |          0 |          1 |         10 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/python.jsx                        | JavaScript JSX |         17 |          1 |          3 |         21 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/react.svg                         | XML            |          1 |          0 |          0 |          1 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/retry.jsx                         | JavaScript JSX |         17 |          0 |          2 |         19 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/rightArrow.jsx                    | JavaScript JSX |         17 |          0 |          2 |         19 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/section9Image1.svg                | XML            |          9 |          0 |          1 |         10 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/section9Image2.svg                | XML            |          9 |          0 |          1 |         10 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/srock2.svg                        | XML            |         12 |          0 |          1 |         13 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/star.svg                          | XML            |          9 |          0 |          1 |         10 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/stars.svg                         | XML            |          9 |          0 |          1 |         10 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/stars6.svg                        | XML            |          9 |          0 |          1 |         10 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/starsShips.svg                    | XML            |          9 |          0 |          1 |         10 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/strock.svg                        | XML            |         76 |          0 |          1 |         77 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/strock1.svg                       | XML            |         66 |          0 |          1 |         67 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/strock2.jsx                       | JavaScript JSX |         42 |          1 |          2 |         45 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/strock2Dextop.jsx                 | JavaScript JSX |         35 |          5 |          5 |         45 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/strock3.jsx                       | JavaScript JSX |         40 |          1 |          4 |         45 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/strock5.jsx                       | JavaScript JSX |         42 |          0 |          3 |         45 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/strock6.jsx                       | JavaScript JSX |         43 |          0 |          3 |         46 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/strock7.jsx                       | JavaScript JSX |        166 |          1 |          3 |        170 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/strockIcon1.jsx                   | JavaScript JSX |         17 |          1 |          3 |         21 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/strockIcon2.jsx                   | JavaScript JSX |         17 |          1 |          3 |         21 |
+| /home/raphaelohai5/GitHubLandingPage/src/assets/strockIcon3.jsx                   | JavaScript JSX |         18 |          0 |          3 |         21 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/Section1.jsx                  | JavaScript JSX |         74 |          2 |          5 |         81 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/Section3.jsx                  | JavaScript JSX |         44 |          1 |          3 |         48 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/animations/absoluteRender.js  | JavaScript     |         16 |          1 |          2 |         19 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/animations/index.js           | JavaScript     |         17 |          1 |          3 |         21 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/animations/slideAnimator.js   | JavaScript     |         21 |          1 |          2 |         24 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/codedemo.jsx                  | JavaScript JSX |         66 |          3 |          8 |         77 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/codespace.jsx                 | JavaScript JSX |        177 |         11 |          8 |        196 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/commitImage.jsx               | JavaScript JSX |         23 |         28 |          3 |         54 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/commitsDemo.jsx               | JavaScript JSX |         66 |          0 |          5 |         71 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/copilotdemo.jsx               | JavaScript JSX |         35 |          1 |          5 |         41 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/index.js                      | JavaScript     |         93 |          7 |         21 |        121 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/section2.jsx                  | JavaScript JSX |        115 |          3 |          3 |        121 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/section4.jsx                  | JavaScript JSX |         32 |          2 |          3 |         37 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/section5.jsx                  | JavaScript JSX |         59 |          1 |          3 |         63 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/section6.jsx                  | JavaScript JSX |         57 |          1 |          3 |         61 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/section7.jsx                  | JavaScript JSX |        116 |          3 |          8 |        127 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/section8.jsx                  | JavaScript JSX |         70 |          1 |          4 |         75 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/section9.jsx                  | JavaScript JSX |         56 |          1 |          5 |         62 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/section9Cards.jsx             | JavaScript JSX |        118 |          1 |          7 |        126 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/sponserCards.jsx              | JavaScript JSX |         62 |          1 |          4 |         67 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/sposors.js                    | JavaScript     |         46 |          0 |          1 |         47 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/styles/commitImage.css        | CSS            |         86 |          6 |          6 |         98 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/styles/section4.css           | CSS            |         15 |          2 |          3 |         20 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/styles/terminal.css           | CSS            |        112 |         23 |         21 |        156 |
+| /home/raphaelohai5/GitHubLandingPage/src/components/svgStrocks.jsx                | JavaScript JSX |         46 |         18 |          8 |         72 |
+| /home/raphaelohai5/GitHubLandingPage/src/hooks/index.js                           | JavaScript     |         18 |          8 |          3 |         29 |
+| /home/raphaelohai5/GitHubLandingPage/src/hooks/svgResize.js                       | JavaScript     |         33 |          0 |          2 |         35 |
+| /home/raphaelohai5/GitHubLandingPage/src/index.css                                | CSS            |          0 |         15 |          1 |         16 |
+| /home/raphaelohai5/GitHubLandingPage/src/main.jsx                                 | JavaScript JSX |         13 |          0 |          1 |         14 |
+| /home/raphaelohai5/GitHubLandingPage/src/reducer/animationSteps.js                | JavaScript     |         51 |          0 |          1 |         52 |
+| /home/raphaelohai5/GitHubLandingPage/src/reducer/index.js                         | JavaScript     |          8 |          0 |          2 |         10 |
+| /home/raphaelohai5/GitHubLandingPage/vite.config.js                               | JavaScript     |          5 |          1 |          2 |          8 |
+| Total                                                                             |                |      7,922 |        220 |        317 |      8,459 |
++-----------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

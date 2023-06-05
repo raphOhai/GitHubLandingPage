@@ -2,14 +2,19 @@ import { Box, Grid, Stack, Typography } from "@mui/material";
 // import React from 'react'
 import "./styles/terminal.css";
 import { HideDextop, HideMobile, HideTabAndMobile } from ".";
+import AbsoluteAnimator from "./animations/absoluteRender";
 const Section5 = () => {
+  AbsoluteAnimator("picture", "pictureA");
   return (
     <Box>
       <Grid container>
         <Grid lg={6} sx={HideDextop}>
           <Box className="pictureBox">
-            <img className="picture2" src="src/assets/demo2.svg" />
-            <img className="picture" src="src/assets/demo1.svg" />
+            <Box sx={HideMobile}>
+              <img className="picture2" src="src/assets/demo2.svg" />
+            </Box>
+
+            <img className="picture transition" src="src/assets/demo1.svg" />
           </Box>
         </Grid>
         <Grid lg={6}>
@@ -19,7 +24,7 @@ const Section5 = () => {
           >
             <Stack spacing={3}>
               <Typography
-                fontSize={{lg:"1.5rem", sm:"1.3rem"}}
+                fontSize={{ lg: "1.5rem", sm: "1.3rem" }}
                 sx={{ fontWeight: 400, color: "white" }}
               >
                 GitHub Codespaces{" "}
@@ -46,7 +51,7 @@ const Section5 = () => {
         <Grid lg={6} sx={HideTabAndMobile}>
           <Box className="pictureBox" sx={HideMobile}>
             <img className="picture2" src="src/assets/demo2.svg" />
-            <img className="picture" src="src/assets/demo1.svg" />
+            <img className="picture transition" src="src/assets/demo1.svg" />
           </Box>
         </Grid>
       </Grid>

@@ -3,15 +3,17 @@ import { Box, Stack, Typography } from "@mui/material";
 import "./styles/terminal.css";
 import "./styles/commitImage.css"
 import { HideMobile, MainPadding, MarginForDemoContents } from ".";
+import AbsoluteAnimator from "./animations/absoluteRender";
 
 const CommitImage = () => {
+  AbsoluteAnimator("renderEngine", "renderEngine2")
   return (
     <Box>
       <Box mt={5} sx={{ position: "relative" }}>
         <Box >
           <img className="responsive" src="src/assets/commitDemo.svg" />
           <Box >
-            <Box className="renderEngine">
+            <Box className="renderEngine transition">
               <img className="responsive" src="src/assets/newRender.svg" />
             </Box>
           </Box>

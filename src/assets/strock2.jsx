@@ -1,13 +1,17 @@
+import Animate from "../components/animations";
 import { SvgResize } from "../hooks/svgResize";
-
+import { useDispatch, useSelector } from "react-redux";
+import { Step1, revertStep1 } from "../reducer/animationSteps";
 const Strock2Mobile = () => {
   const height = SvgResize("<", 600, "455", "650");
+  const { strock1 } = useSelector((state) => state.animationSteps);
+  Animate("GlowBox1", Step1, revertStep1);
   //  console.log(size)
   return (
     <svg
       className="transition"
       width="5"
-      height={height}
+      height={strock1 ? height : "0"}
       viewBox="0 0 1 455"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

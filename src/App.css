@@ -46,6 +46,14 @@
 .transition {
   transition: all 1s;
 }
+
+.transition2 {
+  transition: all 2s;
+}
+.transitionDelay {
+  transition-delay: 200ms;
+}
+
 .boxShadow {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -73,7 +81,12 @@ body {
 body {
   overflow-x: hidden;
 }
-
+.lower {
+  z-index: -2;
+}
+.Elevate {
+  z-index: 4;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .spaceShip {
@@ -85,8 +98,8 @@ body {
   }
   .strock {
     position: absolute;
-    top: -7rem;
-    left: 0rem;
+    top: -6rem;
+    left: 0.5rem;
     /* display: none; */
   }
   .strock img {
@@ -123,7 +136,20 @@ body {
     left: 1rem;
     z-index: -3;
   }
+  .strock5 {
+    position: absolute;
+    top: 272rem;
+    left: 1rem;
+    z-index: -3;
+  }
+  .rotateLink{
+    rotate: 90deg;
+    width: 100px;
+  }
 }
+/* .ndObserver{
+
+} */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -164,6 +190,12 @@ body {
   .strock4 {
     position: absolute;
     top: 128rem;
+    left: 1.8rem;
+    z-index: -3;
+  }
+  .strock5 {
+    position: absolute;
+    top: 307rem;
     left: 1.8rem;
     z-index: -3;
   }
@@ -208,6 +240,12 @@ body {
   .strock4 {
     position: absolute;
     top: 130rem;
+    left: 1.8rem;
+    z-index: -3;
+  }
+  .strock5 {
+    position: absolute;
+    top: 300rem;
     left: 1.8rem;
     z-index: -3;
   }
@@ -294,6 +332,12 @@ body {
     left: 9.5rem;
     z-index: -3;
   }
+  .strock5 {
+    position: absolute;
+    top: 255rem;
+    left: 9.5rem;
+    z-index: -3;
+  }
 }
 
 .strockIcon4 {
@@ -311,13 +355,6 @@ body {
   left: 9.5rem;
   z-index: 5;
 } */
-
-.strock5 {
-  position: absolute;
-  top: 263rem;
-  left: 9.5rem;
-  z-index: -3;
-}
 
 .strock6 {
   position: absolute;
@@ -352,9 +389,6 @@ div {
 /* glowBoxs for the stock icons */
 
 .GlowBox1 {
-  /* position: absolute;
-  top: calc(50% - 20px);
-  left: calc(50% - 20px); */
   width: 1px;
   height: 1px;
   border-radius: 50%;
@@ -364,9 +398,6 @@ div {
 }
 
 .GlowBox2 {
-  /* position: absolute;
-  top: calc(50% - 20px);
-  left: calc(50% - 20px); */
   width: 1px;
   height: 1px;
   border-radius: 50%;
@@ -376,13 +407,120 @@ div {
 }
 
 .GlowBox3 {
-  /* position: absolute;
-  top: cac(50% - 20px);
-  left: calc(50% - 20px); */
   width: 1px;
   height: 1px;
   border-radius: 50%;
   background-color: #fff;
   box-shadow: 0 0 30px 10px rgb(241, 160, 80), 0 0 0px 0px rgb(255, 153, 0),
     0 0 0px 0px #f0f;
+}
+
+.GlowBox4 {
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 30px 10px rgb(186, 1, 253), 0 0 0px 0px rgb(255, 153, 0),
+    0 0 0px 0px #f0f;
+}
+
+/* slide animations */
+.hidden {
+  opacity: 0;
+  /* filter: blur(2px); */
+  transform: translatey(-10%);
+  transition: all 1s;
+}
+.sideSlide {
+  opacity: 0;
+  /* filter: blur(2px); */
+  transform: translateX(-5%);
+  transition: all 0.5s;
+}
+.rightSlide {
+  opacity: 0;
+  /* filter: blur(2px); */
+  transform: translateX(5%);
+  transition: all 0.5s;
+}
+
+.SlideUp {
+  opacity: 0;
+  /* filter: blur(2px); */
+  transform: translatey(5%);
+  transition: all 1s;
+}
+
+.scaleUp {
+  opacity: 0;
+  width: 70%;
+  transition: all 1s;
+}
+
+.showScale {
+  opacity: 1;
+  width: 100%;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  rotate: 0deg;
+}
+
+.group:nth-child(2) {
+  transition-delay: 200ms;
+}
+.group:nth-child(3) {
+  transition-delay: 400ms;
+}
+.group:nth-child(4) {
+  transition-delay: 600ms;
+}
+.group:nth-child(5) {
+  transition-delay: 800ms;
+}
+.group:nth-child(6) {
+  transition-delay: 1000ms;
+}
+.group:nth-child(7) {
+  transition-delay: 1200ms;
+}
+.group:nth-child(8) {
+  transition-delay: 1400ms;
+}
+.group:nth-child(9) {
+  transition-delay: 1600ms;
+}
+.group:nth-child(10) {
+  transition-delay: 1800ms;
+}
+
+.fastGroup:nth-child(2) {
+  transition-delay: 100ms;
+}
+.fastGroup:nth-child(3) {
+  transition-delay: 200ms;
+}
+.fastGroup:nth-child(4) {
+  transition-delay: 300ms;
+}
+.fastGroup:nth-child(5) {
+  transition-delay: 400ms;
+}
+.fastGroup:nth-child(6) {
+  transition-delay: 500ms;
+}
+.fastGroup:nth-child(7) {
+  transition-delay: 600ms;
+}
+.fastGroup:nth-child(8) {
+  transition-delay: 700ms;
+}
+.fastGroup:nth-child(9) {
+  transition-delay: 1600ms;
+}
+.fastGroup:nth-child(10) {
+  transition-delay: 1800ms;
 }

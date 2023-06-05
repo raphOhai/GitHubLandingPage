@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import useWindowSize from ".";
-
 export const SvgResize = (operator, bp, defaultHeight, newHeight) => {
   const size = useWindowSize();
   console.log(size)

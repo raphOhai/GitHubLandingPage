@@ -8,11 +8,11 @@ import SponserCards from "./sponserCards";
 const Section9Cards = () => {
   console.log(sponsors);
   return (
-    <Box mt={20}>
+    <Box marginTop={{lg:"11rem", sm:"9rem", xs:"3rem"}}>
       <Grid container spacing={4}>
         <Grid item lg={6} sm={12} xs={12}>
           <Box sx={section7Box} maxHeight={700}>
-            <Margin0Auto pt={6} pb={6} maxWidth={500}>
+            <Margin0Auto pt={6} pb={6} >
               <Box sx={defaultPadding}>
                 <Stack spacing={5}>
                   <Typography sx={{ color: "#8B949E", fontSize: "1.5rem" }}>
@@ -37,13 +37,13 @@ const Section9Cards = () => {
               </Box>
             </Margin0Auto>
             <Box>
-              <img className="responsive" src="src/assets/section9Image1.svg" />
+              <img className="responsive SlideUp" src="src/assets/section9Image1.svg" />
             </Box>
           </Box>
         </Grid>
         <Grid item lg={6} xs={12} sm={12}>
           <Box sx={section7Box} maxHeight={700}>
-            <Margin0Auto pt={6} pb={6} maxWidth={500}>
+            <Margin0Auto pt={6} pb={6} >
               <Box></Box>
               <Box maxWidth={400} sx={defaultPadding}>
                 <Stack spacing={5}>
@@ -69,7 +69,7 @@ const Section9Cards = () => {
               </Box>
             </Margin0Auto>
             <Box>
-              <img className="responsive" src="src/assets/section9Image2.svg" />
+              <img className="responsive rightSlide" src="src/assets/section9Image2.svg" />
             </Box>
           </Box>
         </Grid>

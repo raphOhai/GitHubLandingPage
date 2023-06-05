@@ -116,7 +116,7 @@ const CodeSpaceDemo = () => {
             lg={6}
             sm={6}
             xs={12}
-            sx={{ borderLeft: "1px solid #30363D" }}
+            sx={{ borderLeft: "1px solid #30363D",overflow:"hidden" }}
           >
             <Stack>
               <Box mt={2} sx={{ display: "flex", gap: "1rem" }}>
@@ -149,7 +149,7 @@ const CodeSpaceDemo = () => {
                 </Box>
               </Box>
               <Box>
-                <Box p={2} sx={{ display: "flex", gap: "3rem" }}>
+                <Box p={2} sx={{ display: "flex", gap: "3rem", overflow:"hidden" }}>
                   <MyText>Terminal</MyText>
                   <Typography sx={greyTextStyles}>Output</Typography>
                   <Typography sx={greyTextStyles}>Problem</Typography>
@@ -181,7 +181,7 @@ const CodeSpaceDemo = () => {
               </Box>
               <Box p={1}>
                 <Center>
-                  <img className="planet" src="src/assets/planet.svg" />
+                  <img className="planet SlideUp transition" src="src/assets/planet.svg" />
                 </Center>
               </Box>
             </Stack>
