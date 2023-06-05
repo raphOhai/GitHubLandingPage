@@ -64,14 +64,13 @@ const Section11 = () => {
                 marginBottom={{ lg: "0rem", sm: "0rem", xs: "2rem" }}
               >
                 <img
-                  //   style={{ width: "100px" }}
                   src="/link.svg"
                   className="responsive rotateLink transition"
                 />
               </Box>
             </Grid>
             <Grid item lg={5.5} sm={5.5} xs={12} className="sideSlide group">
-              <Stack mt={-6}>
+              <Stack marginTop={{lg:"-3rem", xs:".1rem", sm:"-3rem"}}>
                 <Box maxWidth={100} p={1} sx={topBox}>
                   <Center>
                     <MyText>build</MyText>
@@ -79,7 +78,7 @@ const Section11 = () => {
                 </Box>
                 <Box p={3} sx={mainBox}>
                   <Stack spacing={4}>
-                    <Grid container >
+                    <Grid container>
                       <Grid item lg={6} sm={6} xs={6}>
                         <Stack direction="row" spacing={2}>
                           <GreenCheck />
@@ -97,7 +96,7 @@ const Section11 = () => {
                         </AlignEnd>
                       </Grid>
                     </Grid>
-                    <Grid container >
+                    <Grid container>
                       <Grid item lg={6} sm={6} xs={6}>
                         <Stack direction="row" spacing={2}>
                           <GreenCheck />
