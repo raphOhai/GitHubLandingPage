@@ -29,7 +29,7 @@ const Section5 = () => {
             sx={{ marginTop: { lg: "4rem", sm: "16rem", xs: "8rem" } }}
             marginLeft={{ sx: "0rem", sm: "4rem" }}
           >
-            <Stack spacing={3}>
+            <Stack marginTop={{lg:"0rem", sm:"0rem", xs:"12rem"}} spacing={3}>
               <Typography
                 fontSize={{ lg: "1.5rem", sm: "1.3rem" }}
                 sx={{ fontWeight: 400, color: "white" }}
