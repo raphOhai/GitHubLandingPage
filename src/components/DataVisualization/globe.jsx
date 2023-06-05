@@ -13,8 +13,8 @@ const GlobeBall = () => {
     endLat: (Math.random() - 0.5) * 180,
     endLng: (Math.random() - 0.5) * 360,
     color: [
-      ["#ffffff", "#e768b7", "#e768b7", "#e768b7"][Math.round(Math.random() * 3)],
-      ["#e768b7", "#e768b7", "#e768b7", "#ffffff"][Math.round(Math.random() * 3)],
+      ["#ffffff", "#ffffff", "#ffffff", "#ffffff"][Math.round(Math.random() * 3)],
+      ["#ffffff", "#ffffff", "#ffffff", "#ffffff"][Math.round(Math.random() * 3)],
     ],
   }));
   
