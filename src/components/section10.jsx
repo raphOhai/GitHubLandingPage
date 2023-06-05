@@ -18,7 +18,7 @@ const Section10 = () => {
       marginLeft={{ sx: "0rem", sm: "4rem" }}
       marginTop={{ lg: "9rem", sm: "9rem", xs: "8rem" }}
     >
-      <Box marginLeft={{ xs: "1rem", sm: "4rem" }}>
+      <Box marginLeft={{ xs: "1rem", sm: "4rem", lg:"-3rem" }}>
         <Typography
           fontSize={{ lg: "3rem", sm: "2rem", xs: "1.2rem" }}
           sx={{ fontSize: "2rem", color: "white" }}
