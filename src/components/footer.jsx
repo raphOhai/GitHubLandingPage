@@ -5,14 +5,14 @@ import { AlignEnd, Center, HideMobile, MyText, defaultPadding } from ".";
 const Footer = () => {
   const footerText = {
     color: "#717983",
-    fontSize: "1rem",
+    // fontSize: "1rem",
   };
   const buttomBox = {
     backgroundColor: "#161b22",
   };
   return (
     <>
-      <Box marginTop={{lg:"1rem", sm:"17rem", xs:"16rem"}} maxWidth={1200}>
+      <Box marginTop={{ lg: "1rem", sm: "17rem", xs: "16rem" }} maxWidth={1200}>
         <Stack sx={defaultPadding}>
           <Typography sx={footerText}>
             1 The Total Economic Impact™ Of GitHub Enterprise Cloud and Advanced
@@ -108,19 +108,44 @@ const Footer = () => {
       <Box mt={10} p={2} sx={buttomBox}>
         <Box sx={defaultPadding}>
           <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-            <Grid container>
+            <Grid container spacing={2}>
               <Grid item lg={6} xs={12} sm={12}>
                 <Box sx={{ display: "flex", gap: "1rem" }}>
-                  <Typography sx={footerText}>© 2023 GitHub, Inc.</Typography>
-                  <Typography sx={footerText}>Terms</Typography>
+                  <Typography
+                    fontSize={{ lg: "1rem", sm: "1rem", xs: ".8rem" }}
+                    sx={footerText}
+                  >
+                    © 2023 GitHub, Inc.
+                  </Typography>
+                  <Typography
+                    fontSize={{ lg: "1rem", sm: "1rem", xs: ".8rem" }}
+                    sx={footerText}
+                  >
+                    Terms
+                  </Typography>
                   <Box sx={HideMobile}>
-                    <Typography sx={footerText}>
+                    <Typography
+                      fontSize={{ lg: "1rem", sm: "1rem", xs: ".8rem" }}
+                      sx={footerText}
+                    >
                       Privacy (Updated 08/2022)
                     </Typography>
                   </Box>
 
-                  <Typography sx={footerText}>Sitemap</Typography>
-                  <Typography sx={footerText}>What is Git?</Typography>
+                  <Typography
+                    fontSize={{ lg: "1rem", sm: "1rem", xs: ".8rem" }}
+                    sx={footerText}
+                  >
+                    Sitemap
+                  </Typography>
+                  <Box sx={HideMobile}>
+                    <Typography
+                      fontSize={{ lg: "1rem", sm: "1rem", xs: ".8rem" }}
+                      sx={footerText}
+                    >
+                      What is Git?
+                    </Typography>
+                  </Box>
                 </Box>
               </Grid>
               <Grid item lg={6} xs={12} sm={12}>
