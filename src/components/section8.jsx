@@ -11,38 +11,41 @@ const Section8 = () => {
     <>
       <Box
         position={"relative"}
-        marginLeft={{ sx: "0rem", sm: "4rem" }}
+        marginLeft={{ xs: "0rem", sm: "4rem" }}
         marginTop={{ lg: "9rem", sm: "9rem", xs: "8rem" }}
         className="maindiv"
       >
-        <Typography
-          fontSize={{ lg: "3rem", sm: "2rem", xs: "1.2rem" }}
-          sx={{ fontSize: "2rem", color: "white" }}
-        >
-          Productivity
-        </Typography>
+        <Box marginLeft={{ xs: "1rem", sm: "4rem" }}>
+          <Typography
+            fontSize={{ lg: "3rem", sm: "2rem", xs: "1.2rem" }}
+            sx={{ fontSize: "2rem", color: "white" }}
+          >
+            Productivity
+          </Typography>
 
-        <div>
-          <Box className="sideSlide" maxWidth={900}>
-            <Typography
-              className="Observeriv"
-              variant="h2"
-              sx={{
-                fontSize: { lg: "3rem", sm: "2rem", xs: "1.8rem" },
-                color: "#FFA28B",
-                fontWeight: "400",
-              }}
-            >
-              Supercharge collaboration.
-              <span style={{ color: "white" }}>
-                {" "}
-                We provide unlimited repositories, best-in-class version
-                control, and the world’s most powerful open source community—so
-                your team can work more efficiently together.
-              </span>
-            </Typography>
-          </Box>
-        </div>
+          <div>
+            <Box mt={3} className="sideSlide" maxWidth={900}>
+              <Typography
+                className="Observeriv"
+                variant="h2"
+                sx={{
+                  fontSize: { lg: "3rem", sm: "2rem", xs: "1.4rem" },
+                  color: "#FFA28B",
+                  fontWeight: "400",
+                }}
+              >
+                Supercharge collaboration.
+                <span style={{ color: "white" }}>
+                  {" "}
+                  We provide unlimited repositories, best-in-class version
+                  control, and the world’s most powerful open source
+                  community—so your team can work more efficiently together.
+                </span>
+              </Typography>
+            </Box>
+          </div>
+        </Box>
+
         <Box
           sx={{
             position: "absolute",
@@ -56,7 +59,10 @@ const Section8 = () => {
           <Box mt={2} className="GlowBox3 ">
             <Box sx={{ position: "relative" }}>
               <Box sx={{ position: "absolute", top: -9, left: -9 }}>
-                <Typography className="transition2" display={strock4 ? "block" : "none"}>
+                <Typography
+                  className="transition2"
+                  display={strock4 ? "block" : "none"}
+                >
                   <StrockIcon3 />
                 </Typography>
               </Box>

@@ -18,34 +18,37 @@ const Section10 = () => {
       marginLeft={{ sx: "0rem", sm: "4rem" }}
       marginTop={{ lg: "9rem", sm: "9rem", xs: "8rem" }}
     >
-      <Typography
-        fontSize={{ lg: "3rem", sm: "2rem", xs: "1.2rem" }}
-        sx={{ fontSize: "2rem", color: "white" }}
-      >
-        Security
-      </Typography>
+      <Box marginLeft={{ xs: "1rem", sm: "4rem" }}>
+        <Typography
+          fontSize={{ lg: "3rem", sm: "2rem", xs: "1.2rem" }}
+          sx={{ fontSize: "2rem", color: "white" }}
+        >
+          Security
+        </Typography>
 
-      <div>
-        <Box className="sideSlide" maxWidth={900}>
-          <Typography
-            mt={2}
-            className="Observervi"
-            variant="h2"
-            sx={{
-              fontSize: { lg: "3rem", sm: "2rem", xs: "1.8rem" },
-              color: "#939AFF",
-              fontWeight: "400",
-            }}
-          >
-            Embed security into the developer workflow.
-            <span style={{ color: "white" }}>
-              {" "}
-              With GitHub, developers can secure their code in minutes and
-              organizations can automatically comply with regulations.
-            </span>
-          </Typography>
-        </Box>
-      </div>
+        <div>
+          <Box className="sideSlide" maxWidth={900}>
+            <Typography
+              mt={2}
+              className="Observervi"
+              variant="h2"
+              sx={{
+                fontSize: { lg: "3rem", sm: "2rem", xs: "1.5rem" },
+                color: "#939AFF",
+                fontWeight: "400",
+              }}
+            >
+              Embed security into the developer workflow.
+              <span style={{ color: "white" }}>
+                {" "}
+                With GitHub, developers can secure their code in minutes and
+                organizations can automatically comply with regulations.
+              </span>
+            </Typography>
+          </Box>
+        </div>
+      </Box>
+
       <Box
         sx={{
           position: "absolute",
