@@ -65,7 +65,7 @@ const Section11 = () => {
               >
                 <img
                   //   style={{ width: "100px" }}
-                  src="src/assets/link.svg"
+                  src="/link.svg"
                   className="responsive rotateLink transition"
                 />
               </Box>

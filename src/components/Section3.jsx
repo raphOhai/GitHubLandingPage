@@ -11,32 +11,32 @@ const Section3 = () => {
       <Grid container spacing={1}>
         <Grid item lg={2} xs={6}>
           <Center pr={2}>
-            <img src="https://github.githubassets.com/images/modules/site/home-campaign/logos/stripe.svg" />
+            <img className="responsive" src="https://github.githubassets.com/images/modules/site/home-campaign/logos/stripe.svg" />
           </Center>
         </Grid>
         <Grid item lg={2} xs={6}>
           <Center pl={4}>
-            <img src="https://github.githubassets.com/images/modules/site/home-campaign/logos/pinterest.svg"/>
+            <img className="responsive" src="https://github.githubassets.com/images/modules/site/home-campaign/logos/pinterest.svg"/>
           </Center>
         </Grid>
         <Grid item lg={2} xs={6}>
           <Center pr={2}>
-            <img src="https://github.githubassets.com/images/modules/site/home-campaign/logos/kpmg.svg"/>
+            <img className="responsive" src="https://github.githubassets.com/images/modules/site/home-campaign/logos/kpmg.svg"/>
           </Center>
         </Grid>
         <Grid item lg={2} xs={6}>
           <Center pl={5}>
-            <img src="https://github.githubassets.com/images/modules/site/home-campaign/logos/mercedes.svg" />
+            <img className="responsive" src="https://github.githubassets.com/images/modules/site/home-campaign/logos/mercedes.svg" />
           </Center>
         </Grid>
         <Grid item lg={2} xs={6}>
           <Center pr={2}>
-            <img src="https://github.githubassets.com/images/modules/site/home-campaign/logos/pg.svg" />
+            <img className="responsive" src="https://github.githubassets.com/images/modules/site/home-campaign/logos/pg.svg" />
           </Center>
         </Grid>
         <Grid item lg={2} xs={6}>
           <Center pl={2}>
-            <img src="https://github.githubassets.com/images/modules/site/home-campaign/logos/telus.svg" />
+            <img className="responsive" src="https://github.githubassets.com/images/modules/site/home-campaign/logos/telus.svg" />
           </Center>
         </Grid>
       </Grid>

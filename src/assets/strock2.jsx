@@ -1,7 +1,7 @@
-import Animate from "../components/animations";
-import { SvgResize } from "../hooks/svgResize";
+import Animate from "../../src/components/animations";
+import { SvgResize } from "../../src/hooks/svgResize";
 import { useDispatch, useSelector } from "react-redux";
-import { Step1, revertStep1 } from "../reducer/animationSteps";
+import { Step1, revertStep1 } from "../../src/reducer/animationSteps";
 const Strock2Mobile = () => {
   const height = SvgResize("<", 600, "455", "650");
   const { strock1 } = useSelector((state) => state.animationSteps);

@@ -30,7 +30,7 @@ function App() {
     <>
       <div className="hero">
         <Box>
-          <img className="spaceShip" src="../src/assets/starsShips.svg" />
+          <img className="spaceShip" src="/starsShips.svg" />
         </Box>
         <Box sx={defaultPadding}>
           <Header />
@@ -115,7 +115,7 @@ function App() {
             >
               <img
                 className="spaceBoy responsive"
-                src="src/assets/astrocat.png"
+                src="/astrocat.png"
               />
             </Box>
           </Box>

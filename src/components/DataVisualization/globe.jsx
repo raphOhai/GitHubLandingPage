@@ -25,7 +25,7 @@ const GlobeBall = () => {
   return (
   
         <Globe
-          globeImageUrl="src/assets/77.jpg"
+          globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
           arcsData={arcsData}
           arcColor={"color"}
           arcDashLength={() => Math.random()}
