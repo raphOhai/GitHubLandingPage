@@ -13,10 +13,11 @@ import {
   MyText,
 } from ".";
 import { Box, Grid, InputBase, Stack } from "@mui/material";
+import GoArrow from "../assets/goArrow";
 
 const Section2 = () => {
   return (
-    <Grid container spacing={0.5} paddingRight={{ xs: "1rem",lg:"4rem" }}>
+    <Grid container spacing={0.5} paddingRight={{ xs: "1rem", lg: "4rem" }}>
       <Grid
         item
         lg={8}
@@ -120,7 +121,7 @@ const Section2 = () => {
                 <MyText sx={{ fontWeight: "bold" }}>
                   start Enterprise trial
                 </MyText>
-                <img src="../src/assets/Frame.svg" />
+                <GoArrow />
               </Stack>
             </Center>
           </Box>

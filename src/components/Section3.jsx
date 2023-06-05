@@ -1,11 +1,12 @@
-import { Grid, Stack, Typography } from "@mui/material";
+import { Box, Grid, Stack, Typography } from "@mui/material";
 // import React from "react";
 import { Center, HideMobile } from ".";
 
 const Section3 = () => {
   return (
     <>
-      <Typography gutterBottom sx={{ color: "#6E7681" }}>
+    <Box paddingRight={{ xs: "1rem",lg:"4rem" }}>
+    <Typography gutterBottom sx={{ color: "#6E7681" }}>
         Trusted by the word's leading organizations
       </Typography>
       <Grid container spacing={1}>
@@ -40,6 +41,9 @@ const Section3 = () => {
           </Center>
         </Grid>
       </Grid>
+
+    </Box>
+    
     </>
   );
 };
