@@ -11,10 +11,16 @@ const Section5 = () => {
         <Grid lg={6} sx={HideDextop}>
           <Box className="pictureBox">
             <Box sx={HideMobile}>
-              <img className="picture2" src="src/assets/demo2.svg" />
+              <img
+                className="picture2 responsive"
+                src="https://github.githubassets.com/images/modules/site/codespaces/illo-ports.png"
+              />
             </Box>
 
-            <img className="picture transition" src="src/assets/demo1.svg" />
+            <img
+              className="picture transition responsive"
+              src="https://github.githubassets.com/images/modules/site/codespaces/illo-context-menu.png"
+            />
           </Box>
         </Grid>
         <Grid lg={6}>
@@ -49,9 +55,15 @@ const Section5 = () => {
           </Box>
         </Grid>
         <Grid lg={6} sx={HideTabAndMobile}>
-          <Box className="pictureBox" sx={HideMobile}>
-            <img className="picture2" src="src/assets/demo2.svg" />
-            <img className="picture transition" src="src/assets/demo1.svg" />
+          <Box maxWidth={400} className="pictureBox" sx={HideMobile}>
+            <img
+              className="picture2 responsive"
+              src="https://github.githubassets.com/images/modules/site/codespaces/illo-ports.png"
+            />
+            <img
+              className="picture transition responsive"
+              src="https://github.githubassets.com/images/modules/site/codespaces/illo-context-menu.png"
+            />
           </Box>
         </Grid>
       </Grid>

@@ -181,7 +181,7 @@ const CodeSpaceDemo = () => {
               </Box>
               <Box p={1}>
                 <Center>
-                  <img className="planet SlideUp transition" src="src/assets/planet.svg" />
+                  <img className="planet SlideUp transition" src="https://github.githubassets.com/images/modules/site/home/globe.jpg" />
                 </Center>
               </Box>
             </Stack>

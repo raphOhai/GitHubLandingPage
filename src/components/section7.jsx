@@ -112,7 +112,7 @@ const Section7 = () => {
                   </Stack>
                 </Margin0Auto>
                 <Box>
-                  <img className="responsive scaleUp" src="src/assets/demoImage1.svg" />
+                  <img className="responsive scaleUp" src="https://github.githubassets.com/images/modules/site/home-campaign/illu-actions.png" />
                 </Box>
               </Box>
             </Box>
@@ -149,7 +149,7 @@ const Section7 = () => {
                   </Stack>
                 </Margin0Auto>
                 <Box>
-                  <img className="responsive scaleUp" src="src/assets/demoImage2.svg" />
+                  <img className="responsive scaleUp" src="https://github.githubassets.com/images/modules/site/home-campaign/illu-mobile.png" />
                 </Box>
               </Box>
             </Box>

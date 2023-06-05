@@ -37,7 +37,7 @@ const Section9Cards = () => {
               </Box>
             </Margin0Auto>
             <Box>
-              <img className="responsive SlideUp" src="src/assets/section9Image1.svg" />
+              <img className="responsive SlideUp" src="https://github.githubassets.com/images/modules/site/home-campaign/illu-discussions.png" />
             </Box>
           </Box>
         </Grid>
@@ -69,7 +69,7 @@ const Section9Cards = () => {
               </Box>
             </Margin0Auto>
             <Box>
-              <img className="responsive rightSlide" src="src/assets/section9Image2.svg" />
+              <img className="responsive rightSlide" src="https://github.githubassets.com/images/modules/site/home-campaign/illu-pull-requests.png"/>
             </Box>
           </Box>
         </Grid>

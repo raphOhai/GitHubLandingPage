@@ -11,10 +11,10 @@ const CommitImage = () => {
     <Box>
       <Box mt={5} sx={{ position: "relative" }}>
         <Box >
-          <img className="responsive" src="src/assets/commitDemo.svg" />
+          <img className="responsive" src="https://github.githubassets.com/images/modules/site/issues/illo/issues-plan.png"/>
           <Box >
             <Box className="renderEngine transition">
-              <img className="responsive" src="src/assets/newRender.svg" />
+              <img className="responsive" src="https://github.githubassets.com/images/modules/site/home-campaign/illu-projects.png" />
             </Box>
           </Box>
         </Box>
